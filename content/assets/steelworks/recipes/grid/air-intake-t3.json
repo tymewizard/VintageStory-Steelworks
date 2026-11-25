@@ -1,0 +1,20 @@
+{
+  "ingredientPattern": "BRR",
+  "ingredients": {
+    "B": {
+      "type": "block",
+      "code": "game:refractorybricks-good-tier3"
+    },
+    "R": {
+      "type": "item",
+      "code": "game:rod-steel"
+    }
+  },
+  "width": 3,
+  "height": 1,
+  "shapeless": true,
+  "output": {
+    "type": "block",
+    "code": "steelworks:air-intake-good-t3-north"
+  }
+}

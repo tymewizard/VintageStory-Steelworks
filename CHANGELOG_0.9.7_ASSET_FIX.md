@@ -1,0 +1,1 @@
+0.9.7 asset fix: added 110 material-specific Armory shape files, 805 localization entries, corrected 18 shape selector maps. Static audit checked 305 new Armory shape selections and found no missing model paths; checked cloned shape texture references. Existing native DLL unchanged. Runtime verification pending. Optional dependency conditions unchanged.

@@ -1,0 +1,10 @@
+{
+  "code": "steelworks:stainlesssteel",
+  "inputCode": "steelworks:blend-stainlesssteel",
+  "outputCode": "game:ingot-stainlesssteel",
+  "unitsPerBlend": 5,
+  "minTemperature": 1600,
+  "requiresProtectedChamber": false,
+  "processingTimeHours": 16,
+  "minimumRefractoryTier": 2
+}

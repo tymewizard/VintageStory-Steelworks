@@ -1,0 +1,89 @@
+{
+  "ProcessingTimeHours": {
+    "steelworks:blistersteel": 8,
+    "steelworks:nickelsteel": 12,
+    "steelworks:stainlesssteel": 16,
+    "steelworks:chromesteel": 20,
+    "steelworks:titanium": 24
+  },
+  "ProcessingSpeedMultiplier": 1,
+  "FuelConsumptionMultiplier": 1,
+  "HeatingSpeedMultiplier": 1,
+  "CoolingSpeedMultiplier": 1,
+  "WearIntervalGameHours": 168,
+  "CokeBurnGameHours": 2,
+  "Tier1MaximumTemperature": 1500,
+  "Tier2MaximumTemperature": 1650,
+  "Tier3MaximumTemperature": 1800,
+  "AlloyRequiredTemperature": {
+    "steelworks:blistersteel": 1450,
+    "steelworks:nickelsteel": 1550,
+    "steelworks:stainlesssteel": 1600,
+    "steelworks:chromesteel": 1650,
+    "steelworks:titanium": 1750
+  },
+  "Equipment": {
+    "cupronickel": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    },
+    "castiron": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    },
+    "nickelsteel": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    },
+    "stainlesssteel": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    },
+    "chromesteel": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    },
+    "titanium": {
+      "DurabilityScale": 1,
+      "ArmorDurabilityScale": 1,
+      "ShieldDurabilityScale": 1,
+      "NativeAttackPowerScale": 1,
+      "NativeMiningSpeedScale": 1
+    }
+  },
+  "PassiveFirstIntake": 0.3,
+  "PassiveAdditionalIntake": 0.2,
+  "MaximumPassiveAirflow": 0.9,
+  "MaximumForcedAirflow": 1,
+  "RequireForcedAirflow": false,
+  "RequireUnobstructedIntakes": true,
+  "AirflowAffectsHeatingSpeed": true,
+  "AirflowAffectsFuelConsumption": true,
+  "EnableSmokeParticles": true,
+  "EnableCombustionSounds": true,
+  "EnableRefractoryDegradation": true,
+  "Tier1WearChance": 0.1,
+  "Tier2WearChance": 0.05,
+  "Tier3WearChance": 0.001,
+  "QuenchShatterChanceMultiplier": {
+    "nickelsteel": 0.65,
+    "stainlesssteel": 0.45,
+    "chromesteel": 0.3,
+    "titanium": 0.02
+  }
+}

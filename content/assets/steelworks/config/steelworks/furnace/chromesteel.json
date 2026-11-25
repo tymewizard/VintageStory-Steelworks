@@ -1,0 +1,10 @@
+{
+  "code": "steelworks:chromesteel",
+  "inputCode": "steelworks:blend-chromesteel",
+  "outputCode": "game:ingot-chromesteel",
+  "unitsPerBlend": 5,
+  "minTemperature": 1650,
+  "requiresProtectedChamber": false,
+  "processingTimeHours": 20,
+  "minimumRefractoryTier": 2
+}

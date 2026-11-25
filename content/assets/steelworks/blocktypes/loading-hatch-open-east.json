@@ -1,0 +1,40 @@
+{
+  "code": "loading-hatch-open-east",
+  "class": "SteelworksHatch",
+  "drawtype": "json",
+  "shape": {
+    "base": "steelworks:block/loading-hatch-open",
+    "rotateY": 270
+  },
+  "textures": {
+    "iron": {
+      "base": "game:block/metal/ingot/steel"
+    },
+    "darkiron": {
+      "base": "game:block/metal/sheet/steel1"
+    }
+  },
+  "blockmaterial": "Metal",
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "resistance": 3,
+  "attributes": {
+    "steelworksPart": "loading",
+    "steelworksSide": "east",
+    "steelworksOpen": true
+  },
+  "creativeinventory": {},
+  "drops": [
+    {
+      "type": "block",
+      "code": "steelworks:loading-hatch-closed-north"
+    }
+  ],
+  "entityClass": "SteelworksController",
+  "faceCullMode": "NeverCull",
+  "lightAbsorption": 0
+}

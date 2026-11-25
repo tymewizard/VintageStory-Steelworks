@@ -1,0 +1,61 @@
+[
+  {
+    "key": "castiron",
+    "ingredients": {
+      "game:crushed-iron": 4,
+      "em:crushed-ore-coal": 1
+    },
+    "outputBlends": 4,
+    "unitsPerBlend": 5,
+    "processingTemperature": 1320,
+    "status": "proposed; asset references audited, recipe not runtime tested"
+  },
+  {
+    "key": "nickelsteel",
+    "ingredients": {
+      "game:crushed-iron": 3,
+      "em:crushed-metal-nickel": 2,
+      "em:crushed-ore-coal": 1
+    },
+    "outputBlends": 4,
+    "unitsPerBlend": 5,
+    "processingTemperature": 1550,
+    "status": "user-defined ratio; asset references audited, recipe not runtime tested"
+  },
+  {
+    "key": "stainlesssteel",
+    "ingredients": {
+      "game:crushed-iron": 3,
+      "em:crushed-metal-nickel": 1,
+      "game:crushed-chromite": 1,
+      "em:crushed-ore-coal": 1
+    },
+    "outputBlends": 4,
+    "unitsPerBlend": 5,
+    "processingTemperature": 1600,
+    "status": "proposed; asset references audited, recipe not runtime tested"
+  },
+  {
+    "key": "chromesteel",
+    "ingredients": {
+      "game:crushed-iron": 4,
+      "game:crushed-chromite": 1,
+      "em:crushed-ore-coal": 1
+    },
+    "outputBlends": 4,
+    "unitsPerBlend": 5,
+    "processingTemperature": 1650,
+    "status": "proposed; asset references audited, recipe not runtime tested"
+  },
+  {
+    "key": "titanium",
+    "ingredients": {
+      "em:powdered-ore-titaniumdioxide": 4,
+      "em:crushed-ore-coal": 1
+    },
+    "outputBlends": 4,
+    "unitsPerBlend": 5,
+    "processingTemperature": 1750,
+    "status": "provisional simplified refining; yield and protected chamber pending native validation"
+  }
+]

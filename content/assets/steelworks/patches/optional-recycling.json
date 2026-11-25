@@ -1,0 +1,3043 @@
+[
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "cupronickel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "cupronickel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "castiron",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "castiron",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:itemtypes/metalscrap.json",
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/scrap_to_metalbit.json",
+    "op": "add",
+    "path": "/0/ingredients/S/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/arrowhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:arrowhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 2
+      },
+      "name": "steelworks-recycling-arrowhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/arrowhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/arrowhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/arrowhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/arrowhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/axehead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:axehead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-axehead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/axehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/axehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/axehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/axehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:bladehead-falx-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-bladehead-falx_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/cleaverhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:cleaverhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-cleaverhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/cleaverhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/cleaverhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/cleaverhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/cleaverhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hammerhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:hammerhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-hammerhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:helvehammerhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 21
+      },
+      "name": "steelworks-recycling-helvehammerhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hoehead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:hoehead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-hoehead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hoehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hoehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hoehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/hoehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/knifeblade_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:knifeblade-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-knifeblade_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/knifeblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/knifeblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/knifeblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/knifeblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/pickaxehead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:pickaxehead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-pickaxehead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/pickaxehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/pickaxehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/pickaxehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/pickaxehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:prospectingpickhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-prospectingpickhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/sawblade_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:sawblade-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-sawblade_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/sawblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/sawblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/sawblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/sawblade_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/scythehead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:scythehead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-scythehead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/scythehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/scythehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/scythehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/scythehead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/shovelhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:shovelhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-shovelhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/shovelhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/shovelhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/shovelhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/shovelhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/spearhead_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:spearhead-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "game:metalbit-{metal}",
+        "quantity": 5
+      },
+      "name": "steelworks-recycling-spearhead_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/spearhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/spearhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/spearhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/metal_recycling/spearhead_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/arrow_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:arrow-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 2
+      },
+      "name": "steelworks-recycling-arrow_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/arrow_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/arrow_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/arrow_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/arrow_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/axe-felling_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:axe-felling-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-axe-felling_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/axe-felling_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/axe-felling_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/axe-felling_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/axe-felling_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/blade-falx_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:blade-falx-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-blade-falx_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/blade-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/blade-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/blade-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/blade-falx_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/cleaver_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:cleaver-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-cleaver_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/cleaver_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/cleaver_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/cleaver_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/cleaver_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/crowbar_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:crowbar-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-crowbar_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/crowbar_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/crowbar_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/crowbar_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/crowbar_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hammer_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:hammer-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-hammer_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hammer_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hammer_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hammer_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hammer_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hoe_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:hoe-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-hoe_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hoe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hoe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hoe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/hoe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/knife-generic_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:knife-generic-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-knife-generic_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/knife-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/knife-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/knife-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/knife-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/pickaxe_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:pickaxe-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-pickaxe_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/pickaxe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/pickaxe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/pickaxe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/pickaxe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:prospectingpick-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-prospectingpick_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/saw_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:saw-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-saw_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/saw_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/saw_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/saw_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/saw_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/scythe_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:scythe-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-scythe_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/scythe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/scythe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/scythe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/scythe_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/shovel_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:shovel-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "castiron",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-shovel_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/shovel_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/shovel_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/shovel_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/shovel_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/spear-generic_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:spear-generic-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-spear-generic_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/spear-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/spear-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/spear-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/spear-generic_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:tongsmetal-standard-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-tongsmetal_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/wrench_recycling.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "ingredientPattern": "C,B",
+      "recipeGroup": 1323,
+      "ingredients": {
+        "C": {
+          "type": "item",
+          "code": "game:chisel-*",
+          "isTool": true,
+          "toolDurabilityCost": 2,
+          "allowedVariants": [
+            "steel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        },
+        "B": {
+          "type": "item",
+          "code": "game:wrench-*",
+          "name": "metal",
+          "allowedVariants": [
+            "cupronickel",
+            "nickelsteel",
+            "stainlesssteel",
+            "chromesteel",
+            "titanium"
+          ]
+        }
+      },
+      "width": 1,
+      "height": 2,
+      "output": {
+        "type": "item",
+        "code": "recyclingtools:metalscrap-{metal}",
+        "quantity": 8
+      },
+      "name": "steelworks-recycling-wrench_recycling",
+      "shapeless": true,
+      "showInCreatedBy": true
+    },
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/wrench_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/wrench_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/wrench_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling/wrench_recycling.json",
+    "op": "add",
+    "path": "/3/ingredients/C/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling.json",
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants/-",
+    "value": "cupronickel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling.json",
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants/-",
+    "value": "nickelsteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling.json",
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants/-",
+    "value": "stainlesssteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling.json",
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants/-",
+    "value": "chromesteel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:recipes/grid/tool_dismantling.json",
+    "op": "add",
+    "path": "/0/ingredients/T/allowedVariants/-",
+    "value": "titanium",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  },
+  {
+    "file": "recyclingtools:shapes/item/metalscrap.json",
+    "op": "replace",
+    "path": "/textures/texture",
+    "value": "game:block/metal/ingot/steel",
+    "dependsOn": [
+      {
+        "modid": "recyclingtools"
+      }
+    ]
+  }
+]

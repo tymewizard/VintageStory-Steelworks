@@ -1,0 +1,50 @@
+[
+  {
+    "file": "game:blocktypes/legacy/ingotpile.json",
+    "op": "add",
+    "path": "/textures/castiron",
+    "value": {
+      "base": "game:block/metal/ingot/castiron"
+    }
+  },
+  {
+    "file": "game:blocktypes/legacy/ingotpile.json",
+    "op": "add",
+    "path": "/textures/nickelsteel",
+    "value": {
+      "base": "game:block/metal/ingot/nickelsteel"
+    }
+  },
+  {
+    "file": "game:blocktypes/legacy/ingotpile.json",
+    "op": "add",
+    "path": "/textures/chromesteel",
+    "value": {
+      "base": "game:block/metal/ingot/chromesteel"
+    }
+  },
+  {
+    "file": "game:blocktypes/metal/platepile.json",
+    "op": "add",
+    "path": "/textures/castiron",
+    "value": {
+      "base": "game:block/metal/ingot/castiron"
+    }
+  },
+  {
+    "file": "game:blocktypes/metal/platepile.json",
+    "op": "add",
+    "path": "/textures/nickelsteel",
+    "value": {
+      "base": "game:block/metal/ingot/nickelsteel"
+    }
+  },
+  {
+    "file": "game:blocktypes/metal/platepile.json",
+    "op": "add",
+    "path": "/textures/chromesteel",
+    "value": {
+      "base": "game:block/metal/ingot/chromesteel"
+    }
+  }
+]

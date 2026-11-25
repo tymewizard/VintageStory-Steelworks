@@ -1,0 +1,17 @@
+{
+  "ingredientPattern": "H",
+  "width": 1,
+  "height": 1,
+  "shapeless": true,
+  "ingredients": {
+    "H": {
+      "type": "block",
+      "code": "steelworks:loading-hatch-closed-north"
+    }
+  },
+  "output": {
+    "type": "block",
+    "code": "steelworks:fuel-hatch-closed-north",
+    "quantity": 1
+  }
+}

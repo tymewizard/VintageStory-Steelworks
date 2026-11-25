@@ -1,0 +1,98 @@
+[
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "*-nickelsteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "nickelsteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "nickelsteel"
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-nickelsteel",
+    "value": 1200
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "*-stainlesssteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "stainlesssteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "stainlesssteel"
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-stainlesssteel",
+    "value": 1200
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "*-chromesteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "chromesteel"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "chromesteel"
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-chromesteel",
+    "value": 1200
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/allowedVariants/-",
+    "value": "*-titanium"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/0/ingredient/allowedVariants/-",
+    "value": "titanium"
+  },
+  {
+    "file": "game:recipes/smithing/nails.json",
+    "op": "add",
+    "path": "/1/ingredient/allowedVariants/-",
+    "value": "titanium"
+  },
+  {
+    "file": "game:itemtypes/resource/metalnailsandstrips.json",
+    "op": "add",
+    "path": "/attributes/reinforcementStrengthByType/*-titanium",
+    "value": 1200
+  }
+]

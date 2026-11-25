@@ -1,0 +1,10 @@
+{
+  "code": "steelworks:blistersteel",
+  "inputCode": "steelworks:blend-castiron",
+  "outputCode": "game:ingot-blistersteel",
+  "unitsPerBlend": 5,
+  "minTemperature": 1450,
+  "requiresProtectedChamber": false,
+  "processingTimeHours": 8,
+  "minimumRefractoryTier": 1
+}

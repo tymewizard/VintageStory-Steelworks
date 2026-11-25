@@ -1,0 +1,610 @@
+{
+  "version": "1.5.0",
+  "patches": 167,
+  "recipe_families": 30,
+  "equipment_variants": 156,
+  "helve_materials": [
+    "cupronickel",
+    "nickelsteel",
+    "stainlesssteel",
+    "chromesteel",
+    "titanium"
+  ],
+  "materials": [
+    "cupronickel",
+    "castiron",
+    "nickelsteel",
+    "stainlesssteel",
+    "chromesteel",
+    "titanium"
+  ],
+  "coverage": [
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/arrowhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:arrowhead-cupronickel",
+        "game:arrowhead-nickelsteel",
+        "game:arrowhead-stainlesssteel",
+        "game:arrowhead-chromesteel",
+        "game:arrowhead-titanium"
+      ],
+      "quantity": 2,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/axehead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:axehead-cupronickel",
+        "game:axehead-nickelsteel",
+        "game:axehead-stainlesssteel",
+        "game:axehead-chromesteel",
+        "game:axehead-titanium"
+      ],
+      "quantity": 8,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/bladehead-falx_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:bladehead-falx-cupronickel",
+        "game:bladehead-falx-nickelsteel",
+        "game:bladehead-falx-stainlesssteel",
+        "game:bladehead-falx-chromesteel",
+        "game:bladehead-falx-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/cleaverhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:cleaverhead-cupronickel",
+        "game:cleaverhead-nickelsteel",
+        "game:cleaverhead-stainlesssteel",
+        "game:cleaverhead-chromesteel",
+        "game:cleaverhead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/hammerhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:hammerhead-cupronickel",
+        "game:hammerhead-castiron",
+        "game:hammerhead-nickelsteel",
+        "game:hammerhead-stainlesssteel",
+        "game:hammerhead-chromesteel",
+        "game:hammerhead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/helvehammerhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:helvehammerhead-cupronickel",
+        "game:helvehammerhead-nickelsteel",
+        "game:helvehammerhead-stainlesssteel",
+        "game:helvehammerhead-chromesteel",
+        "game:helvehammerhead-titanium"
+      ],
+      "quantity": 21,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/hoehead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:hoehead-cupronickel",
+        "game:hoehead-castiron",
+        "game:hoehead-nickelsteel",
+        "game:hoehead-stainlesssteel",
+        "game:hoehead-chromesteel",
+        "game:hoehead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/knifeblade_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:knifeblade-cupronickel",
+        "game:knifeblade-nickelsteel",
+        "game:knifeblade-stainlesssteel",
+        "game:knifeblade-chromesteel",
+        "game:knifeblade-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/pickaxehead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:pickaxehead-cupronickel",
+        "game:pickaxehead-nickelsteel",
+        "game:pickaxehead-stainlesssteel",
+        "game:pickaxehead-chromesteel",
+        "game:pickaxehead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/prospectingpickhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:prospectingpickhead-cupronickel",
+        "game:prospectingpickhead-nickelsteel",
+        "game:prospectingpickhead-stainlesssteel",
+        "game:prospectingpickhead-chromesteel",
+        "game:prospectingpickhead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/sawblade_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:sawblade-cupronickel",
+        "game:sawblade-nickelsteel",
+        "game:sawblade-stainlesssteel",
+        "game:sawblade-chromesteel",
+        "game:sawblade-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/scythehead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:scythehead-cupronickel",
+        "game:scythehead-nickelsteel",
+        "game:scythehead-stainlesssteel",
+        "game:scythehead-chromesteel",
+        "game:scythehead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/shovelhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:shovelhead-cupronickel",
+        "game:shovelhead-castiron",
+        "game:shovelhead-nickelsteel",
+        "game:shovelhead-stainlesssteel",
+        "game:shovelhead-chromesteel",
+        "game:shovelhead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/metal_recycling/spearhead_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:spearhead-cupronickel",
+        "game:spearhead-nickelsteel",
+        "game:spearhead-stainlesssteel",
+        "game:spearhead-chromesteel",
+        "game:spearhead-titanium"
+      ],
+      "quantity": 5,
+      "output": "game:metalbit-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/arrow_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:arrow-cupronickel",
+        "game:arrow-nickelsteel",
+        "game:arrow-stainlesssteel",
+        "game:arrow-chromesteel",
+        "game:arrow-titanium"
+      ],
+      "quantity": 2,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/axe-felling_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:axe-felling-cupronickel",
+        "game:axe-felling-nickelsteel",
+        "game:axe-felling-stainlesssteel",
+        "game:axe-felling-chromesteel",
+        "game:axe-felling-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/blade-falx_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:blade-falx-cupronickel",
+        "game:blade-falx-nickelsteel",
+        "game:blade-falx-stainlesssteel",
+        "game:blade-falx-chromesteel",
+        "game:blade-falx-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/cleaver_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:cleaver-cupronickel",
+        "game:cleaver-nickelsteel",
+        "game:cleaver-stainlesssteel",
+        "game:cleaver-chromesteel",
+        "game:cleaver-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/crowbar_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:crowbar-cupronickel",
+        "game:crowbar-nickelsteel",
+        "game:crowbar-stainlesssteel",
+        "game:crowbar-chromesteel",
+        "game:crowbar-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/hammer_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:hammer-cupronickel",
+        "game:hammer-castiron",
+        "game:hammer-nickelsteel",
+        "game:hammer-stainlesssteel",
+        "game:hammer-chromesteel",
+        "game:hammer-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/hoe_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:hoe-cupronickel",
+        "game:hoe-castiron",
+        "game:hoe-nickelsteel",
+        "game:hoe-stainlesssteel",
+        "game:hoe-chromesteel",
+        "game:hoe-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/knife-generic_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:knife-generic-cupronickel",
+        "game:knife-generic-nickelsteel",
+        "game:knife-generic-stainlesssteel",
+        "game:knife-generic-chromesteel",
+        "game:knife-generic-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/pickaxe_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:pickaxe-cupronickel",
+        "game:pickaxe-nickelsteel",
+        "game:pickaxe-stainlesssteel",
+        "game:pickaxe-chromesteel",
+        "game:pickaxe-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/prospectingpick_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:prospectingpick-cupronickel",
+        "game:prospectingpick-nickelsteel",
+        "game:prospectingpick-stainlesssteel",
+        "game:prospectingpick-chromesteel",
+        "game:prospectingpick-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/saw_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:saw-cupronickel",
+        "game:saw-nickelsteel",
+        "game:saw-stainlesssteel",
+        "game:saw-chromesteel",
+        "game:saw-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/scythe_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:scythe-cupronickel",
+        "game:scythe-nickelsteel",
+        "game:scythe-stainlesssteel",
+        "game:scythe-chromesteel",
+        "game:scythe-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/shovel_recycling.json",
+      "materials": [
+        "cupronickel",
+        "castiron",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:shovel-cupronickel",
+        "game:shovel-castiron",
+        "game:shovel-nickelsteel",
+        "game:shovel-stainlesssteel",
+        "game:shovel-chromesteel",
+        "game:shovel-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/spear-generic_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:spear-generic-cupronickel",
+        "game:spear-generic-nickelsteel",
+        "game:spear-generic-stainlesssteel",
+        "game:spear-generic-chromesteel",
+        "game:spear-generic-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/tongsmetal_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:tongsmetal-standard-cupronickel",
+        "game:tongsmetal-standard-nickelsteel",
+        "game:tongsmetal-standard-stainlesssteel",
+        "game:tongsmetal-standard-chromesteel",
+        "game:tongsmetal-standard-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    },
+    {
+      "target": "assets/recyclingtools/recipes/grid/tool_dismantling/wrench_recycling.json",
+      "materials": [
+        "cupronickel",
+        "nickelsteel",
+        "stainlesssteel",
+        "chromesteel",
+        "titanium"
+      ],
+      "inputs": [
+        "game:wrench-cupronickel",
+        "game:wrench-nickelsteel",
+        "game:wrench-stainlesssteel",
+        "game:wrench-chromesteel",
+        "game:wrench-titanium"
+      ],
+      "quantity": 8,
+      "output": "recyclingtools:metalscrap-{metal}"
+    }
+  ],
+  "limitations": [
+    "Base equipment only. Armory, armor, crossbow bolts and other optional equipment not covered by this pass.",
+    "Static paths validated; recipe loader and runtime compatibility not tested.",
+    "Recovery yields inherited from Recycling Tools steel recipes, not a separate balance system."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ingredientPattern": "ABC,DEF",
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "B": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "C": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "D": {
+      "type": "item",
+      "code": "em:crushed-metal-nickel"
+    },
+    "E": {
+      "type": "item",
+      "code": "game:crushed-chromite"
+    },
+    "F": {
+      "type": "item",
+      "code": "em:crushed-ore-coal"
+    }
+  },
+  "width": 3,
+  "height": 2,
+  "shapeless": true,
+  "output": {
+    "type": "item",
+    "code": "steelworks:blend-stainlesssteel",
+    "quantity": 4
+  }
+}

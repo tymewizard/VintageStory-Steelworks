@@ -1,0 +1,45 @@
+{
+  "code": "air-intake-damaged-t3-north",
+  "class": "SteelworksIntake",
+  "drawtype": "json",
+  "shape": {
+    "base": "steelworks:block/air-intake-damaged-t3",
+    "rotateY": 0
+  },
+  "textures": {
+    "brick": {
+      "base": "game:block/clay/refractory/tier3/front1",
+      "overlays": [
+        "game:block/overlay/cracked/cracked1"
+      ]
+    },
+    "pipe": {
+      "base": "game:block/metal/ingot/steel"
+    },
+    "inside": {
+      "base": "game:block/coal/coke"
+    }
+  },
+  "blockmaterial": "Ceramic",
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "lightAbsorption": 0,
+  "resistance": 3,
+  "attributes": {
+    "steelworksTier": 3,
+    "steelworksSide": "north"
+  },
+  "drops": [
+    {
+      "type": "item",
+      "code": "game:refractorybrick-fired-tier3",
+      "quantity": {
+        "avg": 1
+      }
+    }
+  ]
+}

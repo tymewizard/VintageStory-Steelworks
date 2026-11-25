@@ -1,0 +1,2470 @@
+{
+  "game:pickaxe-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:pickaxe-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:pickaxe-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:pickaxe-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:pickaxe-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:prospectingpick-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:prospectingpick-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:prospectingpick-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:prospectingpick-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:prospectingpick-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:axe-felling-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:axe-felling-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:axe-felling-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:axe-felling-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:axe-felling-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:shovel-castiron": {
+    "Metal": "castiron",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hammer-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:hammer-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:hammer-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:hammer-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:hammer-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:hammer-castiron": {
+    "Metal": "castiron",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:chisel-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:chisel-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:chisel-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:chisel-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:chisel-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:saw-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": true
+  },
+  "game:saw-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": true
+  },
+  "game:saw-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": true
+  },
+  "game:saw-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": true
+  },
+  "game:saw-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": true
+  },
+  "game:knife-generic-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:knife-generic-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:knife-generic-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:knife-generic-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:knife-generic-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:hoe-castiron": {
+    "Metal": "castiron",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": true
+  },
+  "game:scythe-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:scythe-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:scythe-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:scythe-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:scythe-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:shears-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:shears-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:shears-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:shears-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:shears-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:blade-falx-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:blade-falx-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:blade-falx-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:blade-falx-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:blade-falx-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:spear-generic-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:spear-generic-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:spear-generic-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:spear-generic-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:spear-generic-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:cleaver-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:cleaver-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:cleaver-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:cleaver-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:cleaver-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:tongsmetal-standard-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:tongsmetal-standard-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:tongsmetal-standard-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:tongsmetal-standard-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:tongsmetal-standard-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:crowbar-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:crowbar-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:crowbar-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:crowbar-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:crowbar-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false
+  },
+  "game:wrench-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:wrench-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:wrench-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:wrench-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:wrench-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": true,
+    "MiningSpeed": false
+  },
+  "game:armor-head-brigandine-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-brigandine-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-brigandine-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-chain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-chain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-chain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-scale-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-scale-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-scale-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-plate-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-plate-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-plate-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-brigandine-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-brigandine-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-brigandine-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-chain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-chain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-chain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-scale-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-scale-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-scale-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-plate-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-plate-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-plate-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-brigandine-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-brigandine-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-brigandine-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-chain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-chain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-chain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-scale-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-scale-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-scale-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-plate-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-plate-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-plate-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-brigandine-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-brigandine-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-brigandine-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-chain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-chain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-chain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-scale-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-scale-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-scale-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-plate-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-plate-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-plate-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-brigandine-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-brigandine-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-brigandine-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-chain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-chain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-chain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-scale-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-scale-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-scale-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-head-plate-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-body-plate-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "game:armor-legs-plate-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true
+  },
+  "armory:armor-torso-brigandine-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-brigandine-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-brigandine-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-brigandine-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-brigandine-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-brigandine-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-brigandine-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-brigandine-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-brigandine-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-brigandine-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-brigandine-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-brigandine-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-brigandine-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-brigandine-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-brigandine-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-brigandine-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-brigandine-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-brigandine-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-brigandine-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-brigandine-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-brigandine-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-brigandine-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-brigandine-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-brigandine-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-brigandine-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-chain-cupronickel-coif": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-chain-nickelsteel-coif": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-chain-stainlesssteel-coif": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-chain-chromesteel-coif": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-chain-titanium-coif": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-chain-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-chain-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-chain-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-chain-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-chain-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-chain-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-chain-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-chain-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-chain-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-chain-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-chain-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-chain-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-chain-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-chain-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-chain-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-cupronickel-open": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-cupronickel-light": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-cupronickel-riveted": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-nickelsteel-open": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-nickelsteel-light": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-nickelsteel-riveted": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-stainlesssteel-open": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-stainlesssteel-light": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-stainlesssteel-riveted": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-chromesteel-open": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-chromesteel-light": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-chromesteel-riveted": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-titanium-open": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-titanium-light": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-head-plate-titanium-riveted": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-plate-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-plate-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-plate-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-plate-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-arms-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-hands-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-legs-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-feet-plate-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-scale-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-scale-cupronickel-vanilla": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-scale-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-scale-nickelsteel-vanilla": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-scale-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-scale-stainlesssteel-vanilla": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-scale-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-scale-chromesteel-vanilla": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-torso-scale-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:armor-armshands-scale-titanium-vanilla": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": true,
+    "Shield": false
+  },
+  "armory:axe-long-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:axe-long-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:axe-long-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:axe-long-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:axe-long-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:club-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:club-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:club-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:club-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:club-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:dagger-long-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:dagger-long-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:dagger-long-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:dagger-long-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:dagger-long-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:halberd-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:halberd-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:halberd-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:halberd-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:halberd-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:hatchet-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:hatchet-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:hatchet-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:hatchet-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:hatchet-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:javelin-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:javelin-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:javelin-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:javelin-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:javelin-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:mace-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:mace-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:mace-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:mace-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:mace-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:pike-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:pike-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:pike-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:pike-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:pike-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:poleaxe-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:poleaxe-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:poleaxe-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:poleaxe-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:poleaxe-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:quarterstaff-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:quarterstaff-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:quarterstaff-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:quarterstaff-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:quarterstaff-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sabre-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sabre-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sabre-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sabre-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sabre-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:shield-heavy-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-heavy-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-heavy-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-heavy-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-heavy-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-light-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-light-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-light-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-light-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:shield-light-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": true
+  },
+  "armory:sword-arming-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-arming-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-arming-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-arming-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-arming-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-great-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-great-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-great-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-great-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-great-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-long-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-long-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-long-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-long-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-long-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-short-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-short-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-short-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-short-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:sword-short-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:trident-plain-cupronickel": {
+    "Metal": "cupronickel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:trident-plain-nickelsteel": {
+    "Metal": "nickelsteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:trident-plain-stainlesssteel": {
+    "Metal": "stainlesssteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:trident-plain-chromesteel": {
+    "Metal": "chromesteel",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  },
+  "armory:trident-plain-titanium": {
+    "Metal": "titanium",
+    "Durability": true,
+    "AttackPower": false,
+    "MiningSpeed": false,
+    "Armor": false,
+    "Shield": false
+  }
+}

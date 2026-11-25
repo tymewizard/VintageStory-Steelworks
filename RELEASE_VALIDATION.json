@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "mod_files": 651,
+  "json_parsed": 533,
+  "dll_sha256": "bc95d42b67aaaf5655bd4dc2c26094bc744df51780f81da8150421938491a86f",
+  "changed_mod_entries": [
+    "modinfo.json"
+  ],
+  "zip_integrity": "passed",
+  "source_content_matches": true,
+  "native_recompiled": false,
+  "hotfix_checks": "six marked passed by user",
+  "remaining": "final version smoke test, dedicated server and exhaustive optional tests"
+}

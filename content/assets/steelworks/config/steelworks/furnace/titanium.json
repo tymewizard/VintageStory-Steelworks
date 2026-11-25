@@ -1,0 +1,10 @@
+{
+  "code": "steelworks:titanium",
+  "inputCode": "steelworks:blend-titanium",
+  "outputCode": "game:ingot-titanium",
+  "unitsPerBlend": 5,
+  "minTemperature": 1750,
+  "requiresProtectedChamber": true,
+  "processingTimeHours": 24,
+  "minimumRefractoryTier": 3
+}

@@ -1,0 +1,402 @@
+{
+  "changes": [
+    {
+      "code": "armor-head-brigandine-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.845,
+        "flatDamageReduction": 1.352,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-brigandine-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.845,
+        "flatDamageReduction": 1.352,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-brigandine-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.845,
+        "flatDamageReduction": 1.352,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-chain-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.865,
+        "flatDamageReduction": 1.456,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-chain-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.865,
+        "flatDamageReduction": 1.456,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-chain-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.865,
+        "flatDamageReduction": 1.456,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-scale-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.905,
+        "flatDamageReduction": 1.664,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-scale-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.905,
+        "flatDamageReduction": 1.664,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-scale-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.905,
+        "flatDamageReduction": 1.664,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-plate-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.975,
+        "flatDamageReduction": 1.872,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-plate-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.975,
+        "flatDamageReduction": 1.872,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-plate-stainlesssteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.975,
+        "flatDamageReduction": 1.872,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-brigandine-chromesteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.85,
+        "flatDamageReduction": 1.404,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-brigandine-chromesteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.85,
+        "flatDamageReduction": 1.404,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-brigandine-chromesteel",
+      "before": {
+        "relativeProtection": 0.84,
+        "flatDamageReduction": 1.3,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.85,
+        "flatDamageReduction": 1.404,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-chain-chromesteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.87,
+        "flatDamageReduction": 1.512,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-chain-chromesteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.87,
+        "flatDamageReduction": 1.512,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-chain-chromesteel",
+      "before": {
+        "relativeProtection": 0.86,
+        "flatDamageReduction": 1.4,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.87,
+        "flatDamageReduction": 1.512,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-scale-chromesteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.91,
+        "flatDamageReduction": 1.728,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-scale-chromesteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.91,
+        "flatDamageReduction": 1.728,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-scale-chromesteel",
+      "before": {
+        "relativeProtection": 0.9,
+        "flatDamageReduction": 1.6,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.91,
+        "flatDamageReduction": 1.728,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-plate-chromesteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.98,
+        "flatDamageReduction": 1.944,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-body-plate-chromesteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.98,
+        "flatDamageReduction": 1.944,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-legs-plate-chromesteel",
+      "before": {
+        "relativeProtection": 0.97,
+        "flatDamageReduction": 1.8,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      },
+      "after": {
+        "relativeProtection": 0.98,
+        "flatDamageReduction": 1.944,
+        "highDamageTierResistant": true,
+        "protectionTier": 4
+      }
+    },
+    {
+      "code": "armor-head-plate-titanium",
+      "before": {
+        "relativeProtection": 0.95,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      },
+      "after": {
+        "relativeProtection": 0.985,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      }
+    },
+    {
+      "code": "armor-body-plate-titanium",
+      "before": {
+        "relativeProtection": 0.95,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      },
+      "after": {
+        "relativeProtection": 0.985,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      }
+    },
+    {
+      "code": "armor-legs-plate-titanium",
+      "before": {
+        "relativeProtection": 0.95,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      },
+      "after": {
+        "relativeProtection": 0.985,
+        "flatDamageReduction": 1.98,
+        "highDamageTierResistant": true,
+        "protectionTier": 5
+      }
+    },
+    {
+      "code": "shield-metal-gain-cupronickel",
+      "before": 54,
+      "after": 96
+    },
+    {
+      "code": "shield-metal-gain-nickelsteel",
+      "before": 174,
+      "after": 162
+    },
+    {
+      "code": "shield-metal-gain-stainlesssteel",
+      "before": 216,
+      "after": 180
+    },
+    {
+      "code": "shield-metal-gain-chromesteel",
+      "before": 192,
+      "after": 198
+    },
+    {
+      "code": "shield-metal-gain-titanium",
+      "before": 264,
+      "after": 240
+    }
+  ],
+  "armoryTargets": 190,
+  "nativeTargets": 148,
+  "shieldSteelReinforcement": 120,
+  "scope": "Static asset values and exact Armory durability target candidates; runtime registration and behavior untested."
+}

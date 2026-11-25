@@ -1,0 +1,39 @@
+{
+  "code": "fuel-hatch-closed-south",
+  "class": "SteelworksHatch",
+  "drawtype": "json",
+  "shape": {
+    "base": "steelworks:block/fuel-hatch-closed",
+    "rotateY": 180
+  },
+  "textures": {
+    "iron": {
+      "base": "game:block/metal/ingot/steel"
+    },
+    "darkiron": {
+      "base": "game:block/metal/sheet/steel1"
+    }
+  },
+  "blockmaterial": "Metal",
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "resistance": 3,
+  "attributes": {
+    "steelworksPart": "fuel",
+    "steelworksSide": "south",
+    "steelworksOpen": false
+  },
+  "creativeinventory": {},
+  "drops": [
+    {
+      "type": "block",
+      "code": "steelworks:fuel-hatch-closed-north"
+    }
+  ],
+  "faceCullMode": "NeverCull",
+  "lightAbsorption": 0
+}

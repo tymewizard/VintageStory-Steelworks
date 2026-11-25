@@ -1,0 +1,10 @@
+{
+  "code": "steelworks:nickelsteel",
+  "inputCode": "steelworks:blend-nickelsteel",
+  "outputCode": "game:ingot-nickelsteel",
+  "unitsPerBlend": 5,
+  "minTemperature": 1550,
+  "requiresProtectedChamber": false,
+  "processingTimeHours": 12,
+  "minimumRefractoryTier": 2
+}

@@ -1,0 +1,11 @@
+{
+  "count": 8,
+  "arrangement": "2 columns x 4 rows",
+  "unitsPerMold": 100,
+  "maxMetalUnits": 800,
+  "maxBlends": 160,
+  "releaseTemperatureC": 200,
+  "hammerDurabilityCost": 1,
+  "containerDegrades": false,
+  "externalTap": false
+}

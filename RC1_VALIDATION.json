@@ -1,0 +1,15 @@
+{
+  "source": "checkpoint 09",
+  "json_files_validated": 543,
+  "optional_patch_audit": {
+    "scope": "Original archive assets plus explicit Combat Overhaul arrow prerequisite; full engine patch order not simulated",
+    "counts": {
+      "passed": 1130
+    },
+    "issues": []
+  },
+  "native_compiled": false,
+  "core_tests_executed": false,
+  "powershell_executed": false,
+  "gameplay_tested": false
+}

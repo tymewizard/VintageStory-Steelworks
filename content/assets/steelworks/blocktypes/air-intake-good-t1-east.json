@@ -1,0 +1,39 @@
+{
+  "code": "air-intake-good-t1-east",
+  "class": "SteelworksIntake",
+  "drawtype": "json",
+  "shape": {
+    "base": "steelworks:block/air-intake-good-t1",
+    "rotateY": 90
+  },
+  "textures": {
+    "brick": {
+      "base": "game:block/clay/refractory/tier1/front1"
+    },
+    "pipe": {
+      "base": "game:block/metal/ingot/steel"
+    },
+    "inside": {
+      "base": "game:block/coal/coke"
+    }
+  },
+  "blockmaterial": "Ceramic",
+  "sideopaque": {
+    "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "lightAbsorption": 0,
+  "resistance": 3,
+  "attributes": {
+    "steelworksTier": 1,
+    "steelworksSide": "east"
+  },
+  "drops": [
+    {
+      "type": "block",
+      "code": "steelworks:air-intake-good-t1-north"
+    }
+  ]
+}

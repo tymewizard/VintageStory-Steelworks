@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "status": "data contract and standalone registry implemented; game asset discovery and native ingot registration pending",
+  "dependency": "steelworks",
+  "requiredDependency": "em",
+  "materialKeys": [
+    "cupronickel",
+    "castiron",
+    "nickelsteel",
+    "stainlesssteel",
+    "chromesteel",
+    "titanium"
+  ],
+  "canonicalCodePolicy": "Reuse existing game/EM2 ingots when available; register missing ingots once. Resolve exact codes during asset audit.",
+  "recipeExtension": {
+    "fields": [
+      "code",
+      "inputCode",
+      "outputCode",
+      "unitsPerBlend",
+      "minTemperature",
+      "processingTimeHours",
+      "requiresProtectedChamber",
+      "minimumRefractoryTier"
+    ],
+    "scope": "game adapter pending; register input/output with registry and batch duration with BatchSettings; legacy core recipe seconds unused by multiblock",
+    "assetPath": "assets/<modid>/config/steelworks/furnace/*.json"
+  },
+  "toolCatalog": [
+    "pickaxe",
+    "propick",
+    "axe",
+    "shovel",
+    "hammer",
+    "chisel",
+    "saw",
+    "knife",
+    "hoe",
+    "scythe",
+    "shears",
+    "cleaver",
+    "falx",
+    "spear",
+    "arrowhead"
+  ],
+  "nickelPolicy": "Reuse game:ingot-nickel unchanged.",
+  "airflowExtension": {
+    "status": "standalone pulse registry implemented; native callback and position validation pending",
+    "provider": "unique source identifier",
+    "strength": "0 < strength <= 1",
+    "durationSeconds": "0 < duration <= 10",
+    "aggregation": "sum active valid sources, capped at 1",
+    "compatibility": "no TG-specific dependency"
+  }
+}

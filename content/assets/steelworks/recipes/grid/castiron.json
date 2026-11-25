@@ -1,0 +1,33 @@
+{
+  "ingredientPattern": "ABC,DE_",
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "B": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "C": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "D": {
+      "type": "item",
+      "code": "game:crushed-iron"
+    },
+    "E": {
+      "type": "item",
+      "code": "em:crushed-ore-coal"
+    }
+  },
+  "width": 3,
+  "height": 2,
+  "shapeless": true,
+  "output": {
+    "type": "item",
+    "code": "steelworks:blend-castiron",
+    "quantity": 4
+  }
+}

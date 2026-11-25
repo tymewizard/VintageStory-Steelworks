@@ -1,0 +1,16 @@
+{
+  "ingredientPattern": "BBB,B_B,BBB",
+  "width": 3,
+  "height": 3,
+  "ingredients": {
+    "B": {
+      "type": "item",
+      "code": "game:refractorybrick-fired-tier3"
+    }
+  },
+  "output": {
+    "type": "block",
+    "code": "steelworks:alloy-container-t3-m0",
+    "quantity": 1
+  }
+}

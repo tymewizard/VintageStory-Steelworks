@@ -1,0 +1,50 @@
+[
+  {
+    "material": "cupronickel",
+    "tier": 3,
+    "castable": true,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-cupronickel",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  },
+  {
+    "material": "castiron",
+    "tier": 4,
+    "castable": true,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-castiron",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  },
+  {
+    "material": "nickelsteel",
+    "tier": 5,
+    "castable": false,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-nickelsteel",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  },
+  {
+    "material": "stainlesssteel",
+    "tier": 5,
+    "castable": false,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-stainlesssteel",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  },
+  {
+    "material": "chromesteel",
+    "tier": 5,
+    "castable": false,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-chromesteel",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  },
+  {
+    "material": "titanium",
+    "tier": 6,
+    "castable": false,
+    "forgeable": true,
+    "canonicalAnvilCode": "game:anvil-titanium",
+    "registrationStatus": "candidate; native recipes and tier checks pending"
+  }
+]

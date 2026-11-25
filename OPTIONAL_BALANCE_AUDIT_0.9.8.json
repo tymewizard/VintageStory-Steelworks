@@ -1,0 +1,3586 @@
+{
+  "optional-combat": [
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 5,
+        "Damage": 3.0
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4.2
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4.4
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 4.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 8,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 8,
+        "Damage": 5.0
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/durabilitybytype/blade-falx-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/durabilitybytype/blade-falx-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/durabilitybytype/blade-falx-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/durabilitybytype/blade-falx-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/sword.json/durabilitybytype/blade-falx-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/spear.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Damage": 3.0
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4.2
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4.4
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4.6
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Damage": 5.0
+      }
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageTierBonusByType/*-cupronickel",
+      "before": 3,
+      "after": 1
+    },
+    {
+      "path": "game:itemtypes/combatoverhaul/arrow.json/behaviors/1/properties/stats/DamageTierBonusByType/*-titanium",
+      "before": 3,
+      "after": 4
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 3.0
+      }
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.2
+      }
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.4
+      }
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4.6
+      }
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 5.0
+      }
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageTierBonusByType/*-cupronickel",
+      "before": 3,
+      "after": 1
+    },
+    {
+      "path": "maltiezcrossbows:itemtypes/bolt.json/behaviors/1/properties/stats/DamageTierBonusByType/*-titanium",
+      "before": 3,
+      "after": 4
+    }
+  ],
+  "optional-armory": [
+    {
+      "path": "armory:itemtypes/armor/brigandine.json/durabilityByType/*-cupronickel-*",
+      "before": 5200,
+      "after": 4160
+    },
+    {
+      "path": "armory:itemtypes/armor/brigandine.json/durabilityByType/*-nickelsteel-*",
+      "before": 5200,
+      "after": 7020
+    },
+    {
+      "path": "armory:itemtypes/armor/brigandine.json/durabilityByType/*-stainlesssteel-*",
+      "before": 5200,
+      "after": 7800
+    },
+    {
+      "path": "armory:itemtypes/armor/brigandine.json/durabilityByType/*-chromesteel-*",
+      "before": 5200,
+      "after": 8580
+    },
+    {
+      "path": "armory:itemtypes/armor/brigandine.json/durabilityByType/*-titanium-*",
+      "before": 5200,
+      "after": 10400
+    },
+    {
+      "path": "armory:itemtypes/armor/chain-coif.json/durabilityByType/*-cupronickel-*",
+      "before": 4000,
+      "after": 3200
+    },
+    {
+      "path": "armory:itemtypes/armor/chain-coif.json/durabilityByType/*-nickelsteel-*",
+      "before": 4000,
+      "after": 5400
+    },
+    {
+      "path": "armory:itemtypes/armor/chain-coif.json/durabilityByType/*-stainlesssteel-*",
+      "before": 4000,
+      "after": 6000
+    },
+    {
+      "path": "armory:itemtypes/armor/chain-coif.json/durabilityByType/*-chromesteel-*",
+      "before": 4000,
+      "after": 6600
+    },
+    {
+      "path": "armory:itemtypes/armor/chain-coif.json/durabilityByType/*-titanium-*",
+      "before": 4000,
+      "after": 8000
+    },
+    {
+      "path": "armory:itemtypes/armor/chain.json/durabilityByType/*-cupronickel-*",
+      "before": 4000,
+      "after": 3200
+    },
+    {
+      "path": "armory:itemtypes/armor/chain.json/durabilityByType/*-nickelsteel-*",
+      "before": 4000,
+      "after": 5400
+    },
+    {
+      "path": "armory:itemtypes/armor/chain.json/durabilityByType/*-stainlesssteel-*",
+      "before": 4000,
+      "after": 6000
+    },
+    {
+      "path": "armory:itemtypes/armor/chain.json/durabilityByType/*-chromesteel-*",
+      "before": 4000,
+      "after": 6600
+    },
+    {
+      "path": "armory:itemtypes/armor/chain.json/durabilityByType/*-titanium-*",
+      "before": 4000,
+      "after": 8000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate-helmets.json/durabilityByType/*-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate-helmets.json/durabilityByType/*-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate-helmets.json/durabilityByType/*-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate-helmets.json/durabilityByType/*-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate-helmets.json/durabilityByType/*-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-torso-plate-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-torso-plate-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-torso-plate-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-torso-plate-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-torso-plate-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-arms-plate-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-arms-plate-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-arms-plate-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-arms-plate-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-arms-plate-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-hands-plate-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-hands-plate-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-hands-plate-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-hands-plate-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-hands-plate-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-legs-plate-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-legs-plate-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-legs-plate-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-legs-plate-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-legs-plate-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-feet-plate-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-feet-plate-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-feet-plate-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-feet-plate-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-feet-plate-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-armshands-plate-cupronickel-*",
+      "before": 22000,
+      "after": 17600
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-armshands-plate-nickelsteel-*",
+      "before": 22000,
+      "after": 29700
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-armshands-plate-stainlesssteel-*",
+      "before": 22000,
+      "after": 33000
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-armshands-plate-chromesteel-*",
+      "before": 22000,
+      "after": 36300
+    },
+    {
+      "path": "armory:itemtypes/armor/plate.json/durabilityByType/*-armshands-plate-titanium-*",
+      "before": 22000,
+      "after": 44000
+    },
+    {
+      "path": "armory:itemtypes/armor/scale.json/durabilityByType/*-cupronickel-*",
+      "before": 11000,
+      "after": 8800
+    },
+    {
+      "path": "armory:itemtypes/armor/scale.json/durabilityByType/*-nickelsteel-*",
+      "before": 11000,
+      "after": 14850
+    },
+    {
+      "path": "armory:itemtypes/armor/scale.json/durabilityByType/*-stainlesssteel-*",
+      "before": 11000,
+      "after": 16500
+    },
+    {
+      "path": "armory:itemtypes/armor/scale.json/durabilityByType/*-chromesteel-*",
+      "before": 11000,
+      "after": 18150
+    },
+    {
+      "path": "armory:itemtypes/armor/scale.json/durabilityByType/*-titanium-*",
+      "before": 11000,
+      "after": 22000
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/axe-long.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/club.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/club.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/club.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/club.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/club.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-cupronickel/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-cupronickel/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-cupronickel/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-cupronickel/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-cupronickel/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-nickelsteel/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-nickelsteel/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-nickelsteel/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-nickelsteel/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-nickelsteel/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-stainlesssteel/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-stainlesssteel/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-stainlesssteel/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-stainlesssteel/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-stainlesssteel/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-chromesteel/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-chromesteel/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-chromesteel/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-chromesteel/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-chromesteel/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-titanium/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-titanium/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-titanium/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-titanium/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-titanium/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-iron/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-iron/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-iron/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-iron/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-iron/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-meteoriciron/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-meteoriciron/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-meteoriciron/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-meteoriciron/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-meteoriciron/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-steel/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-steel/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-steel/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-steel/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*-steel/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*/2/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*/2/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*/2/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*/2/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/dagger.json/behaviorsByType/*/2/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/halberd.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/hatchet.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/hatchet.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/hatchet.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/hatchet.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/hatchet.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 4,
+        "Damage": 3.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 4
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 7,
+        "Damage": 5.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/durabilitybytype/*-cupronickel",
+      "before": 450,
+      "after": 360
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/durabilitybytype/*-nickelsteel",
+      "before": 450,
+      "after": 608
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/durabilitybytype/*-stainlesssteel",
+      "before": 450,
+      "after": 675
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/durabilitybytype/*-chromesteel",
+      "before": 450,
+      "after": 742
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/durabilitybytype/*-titanium",
+      "before": 450,
+      "after": 900
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-cupronickel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-nickelsteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-stainlesssteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-chromesteel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-titanium/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-iron/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-meteoriciron/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*-steel/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 11.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/javelin.json/behaviorsByType/*/1/properties/stats/DamageStatsByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Damage": 10
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Damage": 12.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/mace.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/mace.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/mace.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/mace.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/mace.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/pike.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/pike.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/pike.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/pike.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/pike.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 4,
+        "Damage": 6.0,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8.4,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8.8,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 9.2,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 7,
+        "Damage": 10.0,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "SlashingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "SlashingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 4,
+        "Damage": 4.5,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.3,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.6,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6.9,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 6,
+        "ArmorPiercingTier": 2
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 7,
+        "Damage": 7.5,
+        "ArmorPiercingTier": 2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/poleaxe.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 4,
+        "Damage": 4.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.3
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.6
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6.9
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "BluntAttack",
+        "Tier": 6,
+        "Damage": 6
+      },
+      "after": {
+        "DamageType": "BluntAttack",
+        "Tier": 7,
+        "Damage": 7.5
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/durabilitybytype/*-cupronickel",
+      "before": 750,
+      "after": 600
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/durabilitybytype/*-nickelsteel",
+      "before": 750,
+      "after": 1013
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/durabilitybytype/*-stainlesssteel",
+      "before": 750,
+      "after": 1125
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/durabilitybytype/*-chromesteel",
+      "before": 750,
+      "after": 1238
+    },
+    {
+      "path": "armory:itemtypes/weapons/quarterstaff.json/durabilitybytype/*-titanium",
+      "before": 750,
+      "after": 1500
+    },
+    {
+      "path": "armory:itemtypes/weapons/sabre.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sabre.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/sabre.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/sabre.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/sabre.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-heavy.json/durabilitybytype/*-cupronickel",
+      "before": 1800,
+      "after": 1440
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-heavy.json/durabilitybytype/*-nickelsteel",
+      "before": 1800,
+      "after": 2430
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-heavy.json/durabilitybytype/*-stainlesssteel",
+      "before": 1800,
+      "after": 2700
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-heavy.json/durabilitybytype/*-chromesteel",
+      "before": 1800,
+      "after": 2970
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-heavy.json/durabilitybytype/*-titanium",
+      "before": 1800,
+      "after": 3600
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-light.json/durabilitybytype/*-cupronickel",
+      "before": 3000,
+      "after": 2400
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-light.json/durabilitybytype/*-nickelsteel",
+      "before": 3000,
+      "after": 4050
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-light.json/durabilitybytype/*-stainlesssteel",
+      "before": 3000,
+      "after": 4500
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-light.json/durabilitybytype/*-chromesteel",
+      "before": 3000,
+      "after": 4950
+    },
+    {
+      "path": "armory:itemtypes/weapons/shield-light.json/durabilitybytype/*-titanium",
+      "before": 3000,
+      "after": 6000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-arming.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-arming.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-arming.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-arming.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-arming.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-great.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-great.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-great.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-great.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-great.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-long.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-long.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-long.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-long.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-long.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-short.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-short.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-short.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-short.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/sword-short.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-cupronickel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 4,
+        "Damage": 6.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-nickelsteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8.4
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-stainlesssteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8.8
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-chromesteel",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 9.2
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*-titanium",
+      "before": {
+        "DamageType": "PiercingAttack",
+        "Tier": 6,
+        "Damage": 8
+      },
+      "after": {
+        "DamageType": "PiercingAttack",
+        "Tier": 7,
+        "Damage": 10.0
+      }
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/durabilitybytype/*-cupronickel",
+      "before": 1250,
+      "after": 1000
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/durabilitybytype/*-nickelsteel",
+      "before": 1250,
+      "after": 1688
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/durabilitybytype/*-stainlesssteel",
+      "before": 1250,
+      "after": 1875
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/durabilitybytype/*-chromesteel",
+      "before": 1250,
+      "after": 2062
+    },
+    {
+      "path": "armory:itemtypes/weapons/trident.json/durabilitybytype/*-titanium",
+      "before": 1250,
+      "after": 2500
+    }
+  ]
+}

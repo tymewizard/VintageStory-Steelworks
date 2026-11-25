@@ -1,0 +1,3 @@
+# 0.9.8 RC1 consolidated asset hotfix
+
+Includes prior six forge atlas registrations. Adds four native fastener variants and both existing nail smithing patterns (4/8 sets), English labels, and vanilla steel reinforcement strength (1200) for the new variants. Adds 70 unique codes to Steelworks-added Armory smithing recipes. Replaces the Recycling Tools shape-level unresolved metal placeholder with a steel fallback; its item-level per-metal texture remains unchanged. Native third-party recipe warnings not edited. No DLL, config, or furnace changes. Test in creative world first; asset patches and visuals require runtime validation.
