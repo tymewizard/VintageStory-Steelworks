@@ -74,6 +74,42 @@ internal static class SmithingRecovery
     private static ICoreAPI? ApiFor(ItemStack? stack) => stack?.Collectible == null ? null : getLoadedApi?.Invoke(null, new object[]{stack.Collectible}) as ICoreAPI;
     private static bool IsWorkpiece(ItemStack? stack) => stack?.Collectible?.Code?.Domain == "game" && stack.Collectible.Code.Path.StartsWith("workitem-", StringComparison.Ordinal);
     private static string? OutputCode(SmithingRecipe recipe) => recipe.Output?.ResolvedItemstack?.Collectible?.Code?.ToString();
+    // 1.0.7: older Armory templates can be stored expanded or unexpanded.
+    // Only allow the four known aliases and only for the same output and metal.
+    private static bool MatchesStableRecipe(SmithingRecipe recipe, string? saved, string output)
+    {
+        if (string.IsNullOrEmpty(saved) || recipe.Code?.ToString() == saved) return true;
+        if (recipe.Code == null) return false;
+        string savedPath = saved.Contains(':') ? saved.Substring(saved.IndexOf(':') + 1) : saved;
+        foreach (var alias in RecipeAliases)
+        {
+            if (output == alias.Output && recipe.Code.Path == alias.NewCode &&
+                (savedPath == alias.OldTemplate || savedPath == alias.OldResolved)) return true;
+        }
+        return false;
+    }
+    private static readonly (string OldTemplate, string OldResolved, string NewCode, string Output)[] RecipeAliases = new[] {
+        ("part-helmetplate-{metal}-open", "part-helmetplate-cupronickel-open", "steelworks-part-helmetplate-cupronickel-open", "armory:part-helmetplate-cupronickel-open"),
+        ("part-helmetplate-{metal}-open", "part-helmetplate-nickelsteel-open", "steelworks-part-helmetplate-nickelsteel-open", "armory:part-helmetplate-nickelsteel-open"),
+        ("part-helmetplate-{metal}-open", "part-helmetplate-stainlesssteel-open", "steelworks-part-helmetplate-stainlesssteel-open", "armory:part-helmetplate-stainlesssteel-open"),
+        ("part-helmetplate-{metal}-open", "part-helmetplate-chromesteel-open", "steelworks-part-helmetplate-chromesteel-open", "armory:part-helmetplate-chromesteel-open"),
+        ("part-helmetplate-{metal}-open", "part-helmetplate-titanium-open", "steelworks-part-helmetplate-titanium-open", "armory:part-helmetplate-titanium-open"),
+        ("part-helmetplate-{metal}-light", "part-helmetplate-cupronickel-light", "steelworks-part-helmetplate-cupronickel-light", "armory:part-helmetplate-cupronickel-light"),
+        ("part-helmetplate-{metal}-light", "part-helmetplate-nickelsteel-light", "steelworks-part-helmetplate-nickelsteel-light", "armory:part-helmetplate-nickelsteel-light"),
+        ("part-helmetplate-{metal}-light", "part-helmetplate-stainlesssteel-light", "steelworks-part-helmetplate-stainlesssteel-light", "armory:part-helmetplate-stainlesssteel-light"),
+        ("part-helmetplate-{metal}-light", "part-helmetplate-chromesteel-light", "steelworks-part-helmetplate-chromesteel-light", "armory:part-helmetplate-chromesteel-light"),
+        ("part-helmetplate-{metal}-light", "part-helmetplate-titanium-light", "steelworks-part-helmetplate-titanium-light", "armory:part-helmetplate-titanium-light"),
+        ("part-helmetplate-{metal}-vanilla", "part-helmetplate-cupronickel-vanilla", "steelworks-part-helmetplate-cupronickel-vanilla", "armory:part-helmetplate-cupronickel-vanilla"),
+        ("part-helmetplate-{metal}-vanilla", "part-helmetplate-nickelsteel-vanilla", "steelworks-part-helmetplate-nickelsteel-vanilla", "armory:part-helmetplate-nickelsteel-vanilla"),
+        ("part-helmetplate-{metal}-vanilla", "part-helmetplate-stainlesssteel-vanilla", "steelworks-part-helmetplate-stainlesssteel-vanilla", "armory:part-helmetplate-stainlesssteel-vanilla"),
+        ("part-helmetplate-{metal}-vanilla", "part-helmetplate-chromesteel-vanilla", "steelworks-part-helmetplate-chromesteel-vanilla", "armory:part-helmetplate-chromesteel-vanilla"),
+        ("part-helmetplate-{metal}-vanilla", "part-helmetplate-titanium-vanilla", "steelworks-part-helmetplate-titanium-vanilla", "armory:part-helmetplate-titanium-vanilla"),
+        ("quarterstaffhead-{metal}", "quarterstaffhead-cupronickel", "steelworks-quarterstaffhead-cupronickel", "armory:part-quarterstaffhead-cupronickel"),
+        ("quarterstaffhead-{metal}", "quarterstaffhead-nickelsteel", "steelworks-quarterstaffhead-nickelsteel", "armory:part-quarterstaffhead-nickelsteel"),
+        ("quarterstaffhead-{metal}", "quarterstaffhead-stainlesssteel", "steelworks-quarterstaffhead-stainlesssteel", "armory:part-quarterstaffhead-stainlesssteel"),
+        ("quarterstaffhead-{metal}", "quarterstaffhead-chromesteel", "steelworks-quarterstaffhead-chromesteel", "armory:part-quarterstaffhead-chromesteel"),
+        ("quarterstaffhead-{metal}", "quarterstaffhead-titanium", "steelworks-quarterstaffhead-titanium", "armory:part-quarterstaffhead-titanium"),
+    };
     private static bool SameMetal(ItemStack work, SmithingRecipe recipe)
     {
         var output = recipe.Output?.ResolvedItemstack?.Collectible;
@@ -119,7 +155,7 @@ internal static class SmithingRecovery
             if (!string.IsNullOrEmpty(stableOutput))
             {
                 var matching = recipes.Where(r => r != null && OutputCode(r) == stableOutput && SameMetal(stack,r)
-                    && (string.IsNullOrEmpty(stableRecipe) || r.Code?.ToString() == stableRecipe)).Take(2).ToArray();
+                    && MatchesStableRecipe(r, stableRecipe, stableOutput)).Take(2).ToArray();
                 if (matching.Length == 1) target = matching[0];
                 else return false; // A recorded identity disappeared or is ambiguous: don't substitute another recipe.
             }

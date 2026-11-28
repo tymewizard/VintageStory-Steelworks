@@ -7909,19 +7909,19 @@
     "path": "/attributes/groundStorageTransformByType/axehead-cupronickel",
     "value": {
       "translation": {
-        "x": -0.54,
-        "y": -0.01,
-        "z": 0.08
+        "x": -0.55,
+        "y": 0,
+        "z": 0.1
       },
       "rotation": {
         "x": 0,
-        "y": 41,
+        "y": -66,
         "z": 0
       },
       "origin": {
-        "x": 1.05,
+        "x": 1,
         "y": 0.5,
-        "z": 0.4
+        "z": 0.5
       }
     }
   },
@@ -7936,16 +7936,16 @@
         "z": 0
       },
       "rotation": {
-        "x": -73,
-        "y": -117,
-        "z": -19
+        "x": -57,
+        "y": -119,
+        "z": -172
       },
       "origin": {
-        "x": 1.06,
-        "y": -0.02,
-        "z": 0.43
+        "x": 0.97,
+        "y": -0.07,
+        "z": 0.5
       },
-      "scale": 3.69
+      "scale": 2.8
     }
   },
   {
@@ -8056,19 +8056,19 @@
     "path": "/attributes/groundStorageTransformByType/axehead-nickelsteel",
     "value": {
       "translation": {
-        "x": -0.54,
-        "y": -0.01,
-        "z": 0.08
+        "x": -0.55,
+        "y": 0,
+        "z": 0.1
       },
       "rotation": {
         "x": 0,
-        "y": 41,
+        "y": -66,
         "z": 0
       },
       "origin": {
-        "x": 1.05,
+        "x": 1,
         "y": 0.5,
-        "z": 0.4
+        "z": 0.5
       }
     }
   },
@@ -8083,16 +8083,16 @@
         "z": 0
       },
       "rotation": {
-        "x": -73,
-        "y": -117,
-        "z": -19
+        "x": -57,
+        "y": -119,
+        "z": -172
       },
       "origin": {
-        "x": 1.06,
-        "y": -0.02,
-        "z": 0.43
+        "x": 0.97,
+        "y": -0.07,
+        "z": 0.5
       },
-      "scale": 3.69
+      "scale": 2.8
     }
   },
   {
@@ -8203,19 +8203,19 @@
     "path": "/attributes/groundStorageTransformByType/axehead-stainlesssteel",
     "value": {
       "translation": {
-        "x": -0.54,
-        "y": -0.01,
-        "z": 0.08
+        "x": -0.55,
+        "y": 0,
+        "z": 0.1
       },
       "rotation": {
         "x": 0,
-        "y": 41,
+        "y": -66,
         "z": 0
       },
       "origin": {
-        "x": 1.05,
+        "x": 1,
         "y": 0.5,
-        "z": 0.4
+        "z": 0.5
       }
     }
   },
@@ -8230,16 +8230,16 @@
         "z": 0
       },
       "rotation": {
-        "x": -73,
-        "y": -117,
-        "z": -19
+        "x": -57,
+        "y": -119,
+        "z": -172
       },
       "origin": {
-        "x": 1.06,
-        "y": -0.02,
-        "z": 0.43
+        "x": 0.97,
+        "y": -0.07,
+        "z": 0.5
       },
-      "scale": 3.69
+      "scale": 2.8
     }
   },
   {
@@ -8350,19 +8350,19 @@
     "path": "/attributes/groundStorageTransformByType/axehead-chromesteel",
     "value": {
       "translation": {
-        "x": -0.54,
-        "y": -0.01,
-        "z": 0.08
+        "x": -0.55,
+        "y": 0,
+        "z": 0.1
       },
       "rotation": {
         "x": 0,
-        "y": 41,
+        "y": -66,
         "z": 0
       },
       "origin": {
-        "x": 1.05,
+        "x": 1,
         "y": 0.5,
-        "z": 0.4
+        "z": 0.5
       }
     }
   },
@@ -8377,16 +8377,16 @@
         "z": 0
       },
       "rotation": {
-        "x": -73,
-        "y": -117,
-        "z": -19
+        "x": -57,
+        "y": -119,
+        "z": -172
       },
       "origin": {
-        "x": 1.06,
-        "y": -0.02,
-        "z": 0.43
+        "x": 0.97,
+        "y": -0.07,
+        "z": 0.5
       },
-      "scale": 3.69
+      "scale": 2.8
     }
   },
   {
@@ -8497,19 +8497,19 @@
     "path": "/attributes/groundStorageTransformByType/axehead-titanium",
     "value": {
       "translation": {
-        "x": -0.54,
-        "y": -0.01,
-        "z": 0.08
+        "x": -0.55,
+        "y": 0,
+        "z": 0.1
       },
       "rotation": {
         "x": 0,
-        "y": 41,
+        "y": -66,
         "z": 0
       },
       "origin": {
-        "x": 1.05,
+        "x": 1,
         "y": 0.5,
-        "z": 0.4
+        "z": 0.5
       }
     }
   },
@@ -8524,16 +8524,16 @@
         "z": 0
       },
       "rotation": {
-        "x": -73,
-        "y": -117,
-        "z": -19
+        "x": -57,
+        "y": -119,
+        "z": -172
       },
       "origin": {
-        "x": 1.06,
-        "y": -0.02,
-        "z": 0.43
+        "x": 0.97,
+        "y": -0.07,
+        "z": 0.5
       },
-      "scale": 3.69
+      "scale": 2.8
     }
   },
   {
@@ -8599,20 +8599,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-cupronickel",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -8726,20 +8722,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-nickelsteel",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -8853,20 +8845,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-stainlesssteel",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -8980,20 +8968,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-chromesteel",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -9107,20 +9091,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-titanium",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -9228,20 +9208,16 @@
     "path": "/attributes/groundStorageTransformByType/shovelhead-castiron",
     "value": {
       "translation": {
-        "x": -0.72,
-        "y": -0.012,
-        "z": 0
+        "x": -0.08,
+        "y": -0.043,
+        "z": 0.07
       },
       "rotation": {
         "x": 0,
-        "y": 44,
-        "z": 0
+        "y": 45,
+        "z": -3
       },
-      "origin": {
-        "x": 1.2,
-        "y": 0.5,
-        "z": 0.5
-      }
+      "scale": 0.9
     }
   },
   {
@@ -11640,18 +11616,18 @@
     "path": "/attributes/groundStorageTransformByType/spearhead-cupronickel",
     "value": {
       "translation": {
-        "x": -0.81,
-        "y": 0,
-        "z": -0.07
+        "x": -0.9,
+        "y": 0.05,
+        "z": 0
       },
       "rotation": {
-        "x": 0,
-        "y": 43,
-        "z": -11
+        "x": 93,
+        "y": -8,
+        "z": -37
       },
       "origin": {
         "x": 1.4,
-        "y": 0.5,
+        "y": 0,
         "z": 0.5
       }
     }
@@ -11662,16 +11638,16 @@
     "path": "/guiTransformByType/spearhead-cupronickel",
     "value": {
       "rotation": {
-        "x": -66,
-        "y": -58,
-        "z": -180
+        "x": -180,
+        "y": -32,
+        "z": 137
       },
       "origin": {
-        "x": 1.43,
+        "x": 1.45,
         "y": 0.04,
         "z": 0.5
       },
-      "scale": 3.09
+      "scale": 2.33
     }
   },
   {
@@ -11680,17 +11656,17 @@
     "path": "/tpHandTransformByType/spearhead-cupronickel",
     "value": {
       "translation": {
-        "x": -1.5,
-        "y": 0,
-        "z": -0.6
+        "x": 0,
+        "y": 0.04,
+        "z": -0.4
       },
       "rotation": {
-        "x": -51,
-        "y": -22,
-        "z": -22
+        "x": -11,
+        "y": -17,
+        "z": -2
       },
       "origin": {
-        "x": 1.25,
+        "x": 0.5,
         "y": 0,
         "z": 0.5
       },
@@ -11704,20 +11680,20 @@
     "value": {
       "translation": {
         "x": 0,
-        "y": 0.03,
+        "y": 0,
         "z": 0
       },
       "rotation": {
-        "x": 121,
-        "y": 0,
+        "x": 90,
+        "y": -5,
         "z": 0
       },
       "origin": {
         "x": 1.3,
-        "y": 0.1,
-        "z": 0.5
+        "y": 0.05,
+        "z": 0.52
       },
-      "scale": 3.56
+      "scale": 4.63
     }
   },
   {
@@ -11789,18 +11765,18 @@
     "path": "/attributes/groundStorageTransformByType/spearhead-nickelsteel",
     "value": {
       "translation": {
-        "x": -0.81,
-        "y": 0,
-        "z": -0.07
+        "x": -0.9,
+        "y": 0.05,
+        "z": 0
       },
       "rotation": {
-        "x": 0,
-        "y": 43,
-        "z": -11
+        "x": 93,
+        "y": -8,
+        "z": -37
       },
       "origin": {
         "x": 1.4,
-        "y": 0.5,
+        "y": 0,
         "z": 0.5
       }
     }
@@ -11811,16 +11787,16 @@
     "path": "/guiTransformByType/spearhead-nickelsteel",
     "value": {
       "rotation": {
-        "x": -66,
-        "y": -58,
-        "z": -180
+        "x": -180,
+        "y": -32,
+        "z": 137
       },
       "origin": {
-        "x": 1.43,
+        "x": 1.45,
         "y": 0.04,
         "z": 0.5
       },
-      "scale": 3.09
+      "scale": 2.33
     }
   },
   {
@@ -11829,17 +11805,17 @@
     "path": "/tpHandTransformByType/spearhead-nickelsteel",
     "value": {
       "translation": {
-        "x": -1.5,
-        "y": 0,
-        "z": -0.6
+        "x": 0,
+        "y": 0.04,
+        "z": -0.4
       },
       "rotation": {
-        "x": -51,
-        "y": -22,
-        "z": -22
+        "x": -11,
+        "y": -17,
+        "z": -2
       },
       "origin": {
-        "x": 1.25,
+        "x": 0.5,
         "y": 0,
         "z": 0.5
       },
@@ -11853,20 +11829,20 @@
     "value": {
       "translation": {
         "x": 0,
-        "y": 0.03,
+        "y": 0,
         "z": 0
       },
       "rotation": {
-        "x": 121,
-        "y": 0,
+        "x": 90,
+        "y": -5,
         "z": 0
       },
       "origin": {
         "x": 1.3,
-        "y": 0.1,
-        "z": 0.5
+        "y": 0.05,
+        "z": 0.52
       },
-      "scale": 3.56
+      "scale": 4.63
     }
   },
   {
@@ -11938,18 +11914,18 @@
     "path": "/attributes/groundStorageTransformByType/spearhead-stainlesssteel",
     "value": {
       "translation": {
-        "x": -0.81,
-        "y": 0,
-        "z": -0.07
+        "x": -0.9,
+        "y": 0.05,
+        "z": 0
       },
       "rotation": {
-        "x": 0,
-        "y": 43,
-        "z": -11
+        "x": 93,
+        "y": -8,
+        "z": -37
       },
       "origin": {
         "x": 1.4,
-        "y": 0.5,
+        "y": 0,
         "z": 0.5
       }
     }
@@ -11960,16 +11936,16 @@
     "path": "/guiTransformByType/spearhead-stainlesssteel",
     "value": {
       "rotation": {
-        "x": -66,
-        "y": -58,
-        "z": -180
+        "x": -180,
+        "y": -32,
+        "z": 137
       },
       "origin": {
-        "x": 1.43,
+        "x": 1.45,
         "y": 0.04,
         "z": 0.5
       },
-      "scale": 3.09
+      "scale": 2.33
     }
   },
   {
@@ -11978,17 +11954,17 @@
     "path": "/tpHandTransformByType/spearhead-stainlesssteel",
     "value": {
       "translation": {
-        "x": -1.5,
-        "y": 0,
-        "z": -0.6
+        "x": 0,
+        "y": 0.04,
+        "z": -0.4
       },
       "rotation": {
-        "x": -51,
-        "y": -22,
-        "z": -22
+        "x": -11,
+        "y": -17,
+        "z": -2
       },
       "origin": {
-        "x": 1.25,
+        "x": 0.5,
         "y": 0,
         "z": 0.5
       },
@@ -12002,20 +11978,20 @@
     "value": {
       "translation": {
         "x": 0,
-        "y": 0.03,
+        "y": 0,
         "z": 0
       },
       "rotation": {
-        "x": 121,
-        "y": 0,
+        "x": 90,
+        "y": -5,
         "z": 0
       },
       "origin": {
         "x": 1.3,
-        "y": 0.1,
-        "z": 0.5
+        "y": 0.05,
+        "z": 0.52
       },
-      "scale": 3.56
+      "scale": 4.63
     }
   },
   {
@@ -12087,18 +12063,18 @@
     "path": "/attributes/groundStorageTransformByType/spearhead-chromesteel",
     "value": {
       "translation": {
-        "x": -0.81,
-        "y": 0,
-        "z": -0.07
+        "x": -0.9,
+        "y": 0.05,
+        "z": 0
       },
       "rotation": {
-        "x": 0,
-        "y": 43,
-        "z": -11
+        "x": 93,
+        "y": -8,
+        "z": -37
       },
       "origin": {
         "x": 1.4,
-        "y": 0.5,
+        "y": 0,
         "z": 0.5
       }
     }
@@ -12109,16 +12085,16 @@
     "path": "/guiTransformByType/spearhead-chromesteel",
     "value": {
       "rotation": {
-        "x": -66,
-        "y": -58,
-        "z": -180
+        "x": -180,
+        "y": -32,
+        "z": 137
       },
       "origin": {
-        "x": 1.43,
+        "x": 1.45,
         "y": 0.04,
         "z": 0.5
       },
-      "scale": 3.09
+      "scale": 2.33
     }
   },
   {
@@ -12127,17 +12103,17 @@
     "path": "/tpHandTransformByType/spearhead-chromesteel",
     "value": {
       "translation": {
-        "x": -1.5,
-        "y": 0,
-        "z": -0.6
+        "x": 0,
+        "y": 0.04,
+        "z": -0.4
       },
       "rotation": {
-        "x": -51,
-        "y": -22,
-        "z": -22
+        "x": -11,
+        "y": -17,
+        "z": -2
       },
       "origin": {
-        "x": 1.25,
+        "x": 0.5,
         "y": 0,
         "z": 0.5
       },
@@ -12151,20 +12127,20 @@
     "value": {
       "translation": {
         "x": 0,
-        "y": 0.03,
+        "y": 0,
         "z": 0
       },
       "rotation": {
-        "x": 121,
-        "y": 0,
+        "x": 90,
+        "y": -5,
         "z": 0
       },
       "origin": {
         "x": 1.3,
-        "y": 0.1,
-        "z": 0.5
+        "y": 0.05,
+        "z": 0.52
       },
-      "scale": 3.56
+      "scale": 4.63
     }
   },
   {
@@ -12236,18 +12212,18 @@
     "path": "/attributes/groundStorageTransformByType/spearhead-titanium",
     "value": {
       "translation": {
-        "x": -0.81,
-        "y": 0,
-        "z": -0.07
+        "x": -0.9,
+        "y": 0.05,
+        "z": 0
       },
       "rotation": {
-        "x": 0,
-        "y": 43,
-        "z": -11
+        "x": 93,
+        "y": -8,
+        "z": -37
       },
       "origin": {
         "x": 1.4,
-        "y": 0.5,
+        "y": 0,
         "z": 0.5
       }
     }
@@ -12258,16 +12234,16 @@
     "path": "/guiTransformByType/spearhead-titanium",
     "value": {
       "rotation": {
-        "x": -66,
-        "y": -58,
-        "z": -180
+        "x": -180,
+        "y": -32,
+        "z": 137
       },
       "origin": {
-        "x": 1.43,
+        "x": 1.45,
         "y": 0.04,
         "z": 0.5
       },
-      "scale": 3.09
+      "scale": 2.33
     }
   },
   {
@@ -12276,17 +12252,17 @@
     "path": "/tpHandTransformByType/spearhead-titanium",
     "value": {
       "translation": {
-        "x": -1.5,
-        "y": 0,
-        "z": -0.6
+        "x": 0,
+        "y": 0.04,
+        "z": -0.4
       },
       "rotation": {
-        "x": -51,
-        "y": -22,
-        "z": -22
+        "x": -11,
+        "y": -17,
+        "z": -2
       },
       "origin": {
-        "x": 1.25,
+        "x": 0.5,
         "y": 0,
         "z": 0.5
       },
@@ -12300,20 +12276,20 @@
     "value": {
       "translation": {
         "x": 0,
-        "y": 0.03,
+        "y": 0,
         "z": 0
       },
       "rotation": {
-        "x": 121,
-        "y": 0,
+        "x": 90,
+        "y": -5,
         "z": 0
       },
       "origin": {
         "x": 1.3,
-        "y": 0.1,
-        "z": 0.5
+        "y": 0.05,
+        "z": 0.52
       },
-      "scale": 3.56
+      "scale": 4.63
     }
   },
   {
@@ -34894,6 +34870,72 @@
     "condition": {
       "when": "Toolsmith_MultiPartRendering",
       "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/resource/metalbit.json",
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "requiresAnvilTierByType": {
+        "*-titanium": 4
+      }
+    }
+  },
+  {
+    "file": "game:itemtypes/resource/metalplate.json",
+    "op": "addMerge",
+    "path": "/attributes",
+    "value": {
+      "requiresAnvilTierByType": {
+        "*-titanium": 4
+      }
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/sawblade.json",
+    "op": "replace",
+    "path": "/attributes/inForgeTransform",
+    "value": {
+      "translation": {
+        "x": 0.015625,
+        "y": -0.435,
+        "z": -0.109375
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 0.484375,
+        "y": 0.475,
+        "z": 0.609375
+      },
+      "scale": 0.75
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/scythehead.json",
+    "op": "replace",
+    "path": "/attributes/inForgeTransform",
+    "value": {
+      "translation": {
+        "x": -1.043312,
+        "y": 0.02125,
+        "z": 0.517785
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "origin": {
+        "x": 1.543312,
+        "y": 0.04375,
+        "z": -0.017785
+      },
+      "scale": 0.58
     }
   }
 ]

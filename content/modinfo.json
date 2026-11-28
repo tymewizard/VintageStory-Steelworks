@@ -2,7 +2,7 @@
   "type": "code",
   "modid": "steelworks",
   "name": "Steelworks",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Advanced alloy production, multiblock steelmaking furnace, metallurgy and equipment progression.",
   "dependencies": {
     "game": "1.22.7",

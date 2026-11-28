@@ -131,6 +131,14 @@ Check(EquipmentSettings.ScaleDurability(0,2)==0,"Non-durable item unchanged");
 bool invalidScale=false;try{new EquipmentSettings{DurabilityScale=0}.Validate();}catch(ArgumentException){invalidScale=true;}Check(invalidScale,"Reject invalid equipment scale");
 Check(EquipmentSettings.ScaleDurability(1000,1.5*2)==3000,"General and armor durability scales compose");
 bool invalidArmor=false;try{new EquipmentSettings{ArmorDurabilityScale=0}.Validate();}catch(ArgumentException){invalidArmor=true;}Check(invalidArmor,"Reject invalid armor scale");
+Check(QuenchRiskPolicy.Supported("stainlesssteel") && !QuenchRiskPolicy.Supported("steel"),"Only advanced metals affected");
+Check(QuenchRiskPolicy.UseConfiguredInitialRisk(false,0,0,0,0,0),"Fresh stack uses configured risk");
+Check(QuenchRiskPolicy.UseConfiguredInitialRisk(true,.05f,0,0,0,0),"Untreated legacy default corrected");
+Check(!QuenchRiskPolicy.UseConfiguredInitialRisk(true,.05f,1,0,.1f,0),"Quenched stack risk preserved");
+Check(!QuenchRiskPolicy.UseConfiguredInitialRisk(true,.05f,0,1,0,0),"Tempered stack risk preserved");
+Check(!QuenchRiskPolicy.UseConfiguredInitialRisk(true,.05f,0,0,0,.2f),"Durability bonus risk preserved");
+Check(!QuenchRiskPolicy.UseConfiguredInitialRisk(true,.08f,0,0,0,0),"Nondefault saved risk preserved");
+Console.WriteLine("Quench risk policy tests passed");
 sealed class TestWorld:IFurnaceWorld {
     public readonly System.Collections.Generic.Dictionary<Offset,Cell> Cells=new();
     private int fuel=40;

@@ -12,8 +12,8 @@ $out = Join-Path $PSScriptRoot 'build'
 New-Item -ItemType Directory -Force $out | Out-Null
 $log = Join-Path $out 'build-log.txt'
 $downloads = Join-Path $env:USERPROFILE 'Downloads'
-$zip = Join-Path $downloads 'Steelworks_1.0.4_BUILD_RESULTS.zip'
-$mod = Join-Path $downloads 'Steelworks_1.0.4_VS1.22.7.zip'
+$zip = Join-Path $downloads 'Steelworks_1.0.7_BUILD_RESULTS.zip'
+$mod = Join-Path $downloads 'Steelworks_1.0.7_VS1.22.7.zip'
 $files = @($log, (Join-Path $PSScriptRoot 'NATIVE_ASSET_REPORT.json'), (Join-Path $PSScriptRoot 'EQUIPMENT_AUDIT_0.9.6.json'))
 $files += @(Get-ChildItem $PSScriptRoot -File -Filter '*AUDIT*' | ForEach-Object { $_.FullName } | Where-Object { $_ -notin $files })
 $exit = 1
@@ -27,7 +27,7 @@ function Run-Dotnet([string[]]$Arguments) {
     if ($code -ne 0) { throw "dotnet returned $code" }
 }
 try {
-    "Steelworks 1.0.4 development build" | Set-Content $log
+    "Steelworks 1.0.7 development build" | Set-Content $log
     if(Test-Path $mod){Remove-Item $mod -Force}
     Run-Dotnet @('--info')
     Run-Dotnet @('build','tests/Steelworks.Tests.csproj','-c','Release')

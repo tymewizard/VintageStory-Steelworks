@@ -29,7 +29,7 @@ public sealed class SteelworksMod:ModSystem {
         api.World.Config.SetString("steelworks:server-settings-v1",JsonSerializer.Serialize(Settings));
         ApplyQuenchBalance(api);
         EquipmentOverrides.Apply(api,Settings);
-        recoveryApi=api; SmithingRecovery.Install(api);
+        recoveryApi=api; SmithingRecovery.Install(api); QuenchRiskBridge.Install(api); TitaniumAnvilBridge.Install(api);
     }
     // World config is sent by the engine at join; do not trust a client's local server settings.
     public override void StartClientSide(ICoreClientAPI api){
@@ -37,15 +37,16 @@ public sealed class SteelworksMod:ModSystem {
         try{var json=api.World.Config.GetString("steelworks:server-settings-v1","");Settings=string.IsNullOrEmpty(json)?new():JsonSerializer.Deserialize<BatchSettings>(json)??new();Settings.Validate();}catch(Exception e){api.Logger.Warning("Steelworks server settings unavailable: {0}",e.Message);Settings=new();}
         ApplyQuenchBalance(api);
         EquipmentOverrides.Apply(api,Settings);
-        recoveryApi=api; SmithingRecovery.Install(api);
+        recoveryApi=api; SmithingRecovery.Install(api); QuenchRiskBridge.Install(api); TitaniumAnvilBridge.Install(api);
+        try { NativeDisplayParity.Apply(api); } catch(Exception e) { api.Logger.Warning("Steelworks: GUI parity unavailable: {0}",e.GetBaseException().Message); }
     }
-    public override void Dispose(){if(recoveryApi!=null)SmithingRecovery.Release(recoveryApi);base.Dispose();}
+    public override void Dispose(){if(recoveryApi!=null){SmithingRecovery.Release(recoveryApi);QuenchRiskBridge.Release(recoveryApi);TitaniumAnvilBridge.Release(recoveryApi);}base.Dispose();}
     private void ApplyQuenchBalance(ICoreAPI api){
         int count=0;
         foreach(var item in api.World.Items){
             if(item?.Code==null)continue;
             if(!item.Variant.TryGetValue("metal",out var metal)&&!item.Variant.TryGetValue("material",out metal))continue;
-            if(metal is not ("nickelsteel" or "stainlesssteel" or "chromesteel" or "titanium"))continue;
+            if(!QuenchRiskPolicy.Supported(metal))continue;
             var behavior=item.GetBehavior<CollectibleBehaviorQuenchable>();if(behavior==null)continue;
             behavior.BreakChancePerQuench=(float)Settings.ShatterIncrement(metal);count++;
         }
