@@ -18,6 +18,7 @@ public sealed class RecipeAsset {
     public bool RequiresProtectedChamber {get;set;} public double ProcessingTimeHours {get;set;}
 }
 public sealed class SteelworksMod:ModSystem {
+    private ICoreAPI? recoveryApi;
     internal FurnaceRegistry? Registry; internal BatchSettings Settings=new(); internal ClientSettings VisualSettings=new();
     public override void Start(ICoreAPI api){
         api.RegisterBlockClass("SteelworksIntake",typeof(SteelworksIntake));api.RegisterBlockClass("SteelworksHatch",typeof(SteelworksHatch));api.RegisterBlockClass("SteelworksContainer",typeof(SteelworksContainer));
@@ -28,6 +29,7 @@ public sealed class SteelworksMod:ModSystem {
         api.World.Config.SetString("steelworks:server-settings-v1",JsonSerializer.Serialize(Settings));
         ApplyQuenchBalance(api);
         EquipmentOverrides.Apply(api,Settings);
+        recoveryApi=api; SmithingRecovery.Install(api);
     }
     // World config is sent by the engine at join; do not trust a client's local server settings.
     public override void StartClientSide(ICoreClientAPI api){
@@ -35,7 +37,9 @@ public sealed class SteelworksMod:ModSystem {
         try{var json=api.World.Config.GetString("steelworks:server-settings-v1","");Settings=string.IsNullOrEmpty(json)?new():JsonSerializer.Deserialize<BatchSettings>(json)??new();Settings.Validate();}catch(Exception e){api.Logger.Warning("Steelworks server settings unavailable: {0}",e.Message);Settings=new();}
         ApplyQuenchBalance(api);
         EquipmentOverrides.Apply(api,Settings);
+        recoveryApi=api; SmithingRecovery.Install(api);
     }
+    public override void Dispose(){if(recoveryApi!=null)SmithingRecovery.Release(recoveryApi);base.Dispose();}
     private void ApplyQuenchBalance(ICoreAPI api){
         int count=0;
         foreach(var item in api.World.Items){
@@ -227,7 +231,7 @@ public sealed class SteelworksController:BlockEntity,IFurnaceWorld {
     public bool AcceptAir(BlockPos target,BlockFacing facing,float strength){if(!Server||session==null||failed)return false;var o=new Offset(target.X-Pos.X,target.Y-Pos.Y,target.Z-Pos.Z);if(o.Y!=-4||Math.Abs(o.X)+Math.Abs(o.Z)!=1||Read(o)?.Part!=Part.AirInlet||Read(o)?.Damaged==true||facing.Normali.X!=-o.X||facing.Normali.Z!=-o.Z)return false;var source=target.AddCopy(-facing.Normali.X,0,-facing.Normali.Z);if((W.BlockAccessor.GetBlock(source)?.Id??0)==0)return false;string key=source.ToString();sources[key]=source;return airflow.Deliver(key,Math.Clamp(strength*5,0,1),W.ElapsedMilliseconds/1000d,3,SourceExists);}
     public void Preview(IPlayer player,bool? hide=null){if(session==null)return;session.Invalidate();var positions=new List<BlockPos>();var colors=new List<int>();if(hide==false||(hide==null&&!previews.Contains(player.PlayerUID))){previews.Add(player.PlayerUID);var faults=session.Inspect().Faults.Select(f=>f.Position).ToHashSet();foreach(var req in FurnaceLayout.Resolve(Read,Rotation)){if(!faults.Contains(req.Position))continue;positions.Add(At(req.Position));colors.Add(unchecked((int)0xff3030ff));}}else previews.Remove(player.PlayerUID);W.HighlightBlocks(player,921,positions,colors,Vintagestory.API.Client.EnumHighlightBlocksMode.Absolute,EnumHighlightShape.Arbitrary);}
     public bool InteractContents(IPlayer player){if(!Server||failed||session==null||!Open||!NativeParts.Allowed(W,player,Pos))return false;var slot=player.InventoryManager.ActiveHotbarSlot;var sneak=player.Entity.Controls.ShiftKey;session.Invalidate();if(!slot.Empty&&slot.Itemstack.Collectible.Tool==EnumTool.Hammer&&sneak){bool released=session.TryRelease(true,true,()=>{slot.Itemstack.Collectible.DamageItem(W,player.Entity,slot,1);slot.MarkDirty();return true;});if(released)Changed();return released;}if(slot.Empty&&sneak&&session.Snapshot().Input is string input){int n=session.RemoveInput(64);if(n>0){Give(player,input,n,20);Changed();return true;}}if((slot.Empty||slot.Itemstack.Collectible.Tool==EnumTool.Tongs)&&session.Snapshot().Released){bool tongs=slot.Itemstack?.Collectible.Tool==EnumTool.Tongs||player.Entity.LeftHandItemSlot?.Itemstack?.Collectible.Tool==EnumTool.Tongs;bool collected=false;for(int n=0;n<8;n++)if(session.RetrieveMold(n,true,(code,temp)=>(temp<200||tongs)&&Give(player,code,1,temp)))collected=true;if(collected){W.PlaySoundAt(new AssetLocation("game:sounds/block/ingot"),Pos.X+.5,Pos.Y-.5,Pos.Z+.5,null,false,12,.8f);Changed();}return true;}if(!slot.Empty){int n=session.Insert(slot.Itemstack.Collectible.Code.ToString(),slot.StackSize);if(n>0){slot.TakeOut(n);slot.MarkDirty();Changed();return true;}}return false;}
-    private bool Give(IPlayer p,string code,int count,double temperature){var item=W.GetItem(new AssetLocation(code));if(item==null)return false;var stack=new ItemStack(item,count);item.SetTemperature(W,stack,(float)temperature);if(!p.InventoryManager.TryGiveItemstack(stack))W.SpawnItemEntity(stack,Pos.ToVec3d().Add(0.5,1,0.5));return true;}
+    private bool Give(IPlayer p,string code,int count,double temperature){var item=W.GetItem(new AssetLocation(code));if(item==null)return false;var stack=new ItemStack(item,count);if(temperature>20.01)item.SetTemperature(W,stack,(float)temperature);if(code.StartsWith("game:ingot-",StringComparison.Ordinal)){try{var pristine=new ItemStack(item,count);Api.Logger.Debug("Steelworks ingot output: {0}, temperature={1:F2}, matches fresh stack={2}, attributes={3}",code,temperature,stack.Equals(W,pristine,Vintagestory.API.Config.GlobalConstants.IgnoredStackAttributes),stack.Attributes.ToString());}catch(Exception e){Api.Logger.Warning("Steelworks ingot diagnostic skipped: {0}",e.Message);}}if(!p.InventoryManager.TryGiveItemstack(stack))W.SpawnItemEntity(stack,Pos.ToVec3d().Add(0.5,1,0.5));return true;}
     public void StopFire(){if(!Server||session==null||failed)return;session.Stop();SyncFuelVisuals(false);Changed();}
     public bool Ignite(){if(!Server||session==null||failed)return false;var ok=session.Ignite();Changed();return ok;}
     private static ItemSlot? PileSlot(BlockEntity? entity){if(entity==null||entity.GetType().Name!="BlockEntityCoalPile")return null;for(Type? t=entity.GetType();t!=null;t=t.BaseType){var f=t.GetField("inventory",BindingFlags.Instance|BindingFlags.NonPublic|BindingFlags.Public|BindingFlags.DeclaredOnly);if(f?.GetValue(entity) is IInventory inv&&inv.Count>0)return inv[0];}return null;}

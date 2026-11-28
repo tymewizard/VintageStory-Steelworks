@@ -2,11 +2,11 @@ using System;
 using System.Collections.Generic;
 namespace Steelworks;
 public sealed class BatchSettings {
-    public Dictionary<string,double> ProcessingTimeHours {get;init;}=new(){["steelworks:blistersteel"]=8,["steelworks:nickelsteel"]=12,["steelworks:stainlesssteel"]=16,["steelworks:chromesteel"]=20,["steelworks:titanium"]=24};
+    public Dictionary<string,double> ProcessingTimeHours {get;init;}=new(){["steelworks:blistersteel"]=8,["steelworks:nickelsteel"]=12,["steelworks:stainlesssteel"]=18,["steelworks:chromesteel"]=18,["steelworks:titanium"]=24};
     public double Tier1MaximumTemperature {get;init;}=1500;
     public double Tier2MaximumTemperature {get;init;}=1650;
     public double Tier3MaximumTemperature {get;init;}=1800;
-    public Dictionary<string,double> AlloyRequiredTemperature {get;init;}=new(){["steelworks:blistersteel"]=1450,["steelworks:nickelsteel"]=1550,["steelworks:stainlesssteel"]=1600,["steelworks:chromesteel"]=1650,["steelworks:titanium"]=1750};
+    public Dictionary<string,double> AlloyRequiredTemperature {get;init;}=new(){["steelworks:blistersteel"]=1450,["steelworks:nickelsteel"]=1550,["steelworks:stainlesssteel"]=1800,["steelworks:chromesteel"]=1625,["steelworks:titanium"]=1750};
     public double TemperatureLimit(Inspection i)=>!i.Valid?20:i.Tier switch{1=>Tier1MaximumTemperature,2=>Tier2MaximumTemperature,3=>Tier3MaximumTemperature,_=>20};
     public double RequiredTemperature(string code,double fallback)=>AlloyRequiredTemperature.TryGetValue(code,out var t)?t:fallback;
     public Dictionary<string,EquipmentSettings> Equipment {get;init;}=EquipmentSettings.Defaults();
@@ -30,8 +30,8 @@ public sealed class BatchSettings {
     public double Tier1WearChance {get;init;}=.10;
     public double Tier2WearChance {get;init;}=.05;
     public double Tier3WearChance {get;init;}=.001;
-    public Dictionary<string,double> QuenchShatterChanceMultiplier {get;init;}=new(){["nickelsteel"]=.65,["stainlesssteel"]=.45,["chromesteel"]=.30,["titanium"]=.02};
-    public double ShatterIncrement(string metal,double vanilla=.05)=>vanilla*(QuenchShatterChanceMultiplier.TryGetValue(metal,out var multiplier)?multiplier:metal switch{"nickelsteel"=>.65,"stainlesssteel"=>.45,"chromesteel"=>.30,"titanium"=>.02,_=>1});
+    public Dictionary<string,double> QuenchShatterChanceMultiplier {get;init;}=new(){["nickelsteel"]=.65,["stainlesssteel"]=.30,["chromesteel"]=.45,["titanium"]=.02};
+    public double ShatterIncrement(string metal,double vanilla=.05)=>vanilla*(QuenchShatterChanceMultiplier.TryGetValue(metal,out var multiplier)?multiplier:metal switch{"nickelsteel"=>.65,"stainlesssteel"=>.30,"chromesteel"=>.45,"titanium"=>.02,_=>1});
     public double FuelHoursRemaining(double committedHours,int cokeCount,double airflow)=>airflow<=0?0:(Math.Max(0,committedHours)+Math.Max(0,cokeCount)*CokeBurnGameHours)/FuelRate(airflow);
     public double FuelRate(double airflow)=>FuelConsumptionMultiplier*(AirflowAffectsFuelConsumption?DraftFuelMultiplier(airflow):1);
     public static double DraftFuelMultiplier(double airflow){

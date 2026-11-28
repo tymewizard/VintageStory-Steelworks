@@ -607,7 +607,7 @@
     "file": "game:itemtypes/tool/pickaxe.json",
     "op": "add",
     "path": "/durabilitybytype/pickaxe-stainlesssteel",
-    "value": 3750
+    "value": 4125
   },
   {
     "file": "game:itemtypes/tool/pickaxe.json",
@@ -661,7 +661,7 @@
     "file": "game:itemtypes/tool/pickaxe.json",
     "op": "add",
     "path": "/durabilitybytype/pickaxe-chromesteel",
-    "value": 4125
+    "value": 3750
   },
   {
     "file": "game:itemtypes/tool/pickaxe.json",
@@ -853,7 +853,7 @@
     "file": "game:itemtypes/tool/prospectingpick.json",
     "op": "add",
     "path": "/durabilitybytype/prospectingpick-stainlesssteel",
-    "value": 2438
+    "value": 2681
   },
   {
     "file": "game:itemtypes/tool/prospectingpick.json",
@@ -899,7 +899,7 @@
     "file": "game:itemtypes/tool/prospectingpick.json",
     "op": "add",
     "path": "/durabilitybytype/prospectingpick-chromesteel",
-    "value": 2681
+    "value": 2438
   },
   {
     "file": "game:itemtypes/tool/prospectingpick.json",
@@ -1427,7 +1427,7 @@
     "file": "game:itemtypes/tool/axe-metal.json",
     "op": "add",
     "path": "/durabilitybytype/axe-felling-stainlesssteel",
-    "value": 2700
+    "value": 2970
   },
   {
     "file": "game:itemtypes/tool/axe-metal.json",
@@ -1611,7 +1611,7 @@
     "file": "game:itemtypes/tool/axe-metal.json",
     "op": "add",
     "path": "/durabilitybytype/axe-felling-chromesteel",
-    "value": 2970
+    "value": 2700
   },
   {
     "file": "game:itemtypes/tool/axe-metal.json",
@@ -2094,7 +2094,7 @@
     "file": "game:itemtypes/tool/shovel.json",
     "op": "add",
     "path": "/durabilitybytype/shovel-stainlesssteel",
-    "value": 4500
+    "value": 4950
   },
   {
     "file": "game:itemtypes/tool/shovel.json",
@@ -2176,7 +2176,7 @@
     "file": "game:itemtypes/tool/shovel.json",
     "op": "add",
     "path": "/durabilitybytype/shovel-chromesteel",
-    "value": 4950
+    "value": 4500
   },
   {
     "file": "game:itemtypes/tool/shovel.json",
@@ -2476,7 +2476,7 @@
     "file": "game:itemtypes/tool/hammer.json",
     "op": "add",
     "path": "/durabilitybytype/hammer-stainlesssteel",
-    "value": 6750
+    "value": 7425
   },
   {
     "file": "game:itemtypes/tool/hammer.json",
@@ -2513,7 +2513,7 @@
     "file": "game:itemtypes/tool/hammer.json",
     "op": "add",
     "path": "/durabilitybytype/hammer-chromesteel",
-    "value": 7425
+    "value": 6750
   },
   {
     "file": "game:itemtypes/tool/hammer.json",
@@ -2737,7 +2737,7 @@
     "file": "game:itemtypes/tool/chisel.json",
     "op": "add",
     "path": "/durabilitybytype/chisel-stainlesssteel",
-    "value": 9000
+    "value": 9900
   },
   {
     "file": "game:itemtypes/tool/chisel.json",
@@ -2786,7 +2786,7 @@
     "file": "game:itemtypes/tool/chisel.json",
     "op": "add",
     "path": "/durabilitybytype/chisel-chromesteel",
-    "value": 9900
+    "value": 9000
   },
   {
     "file": "game:itemtypes/tool/chisel.json",
@@ -2959,7 +2959,7 @@
     "file": "game:itemtypes/tool/saw.json",
     "op": "add",
     "path": "/durabilitybytype/saw-stainlesssteel",
-    "value": 3375
+    "value": 3712
   },
   {
     "file": "game:itemtypes/tool/saw.json",
@@ -2996,7 +2996,7 @@
     "file": "game:itemtypes/tool/saw.json",
     "op": "add",
     "path": "/durabilitybytype/saw-chromesteel",
-    "value": 3712
+    "value": 3375
   },
   {
     "file": "game:itemtypes/tool/saw.json",
@@ -3358,7 +3358,7 @@
     "file": "game:itemtypes/tool/knife.json",
     "op": "add",
     "path": "/durabilitybytype/knife-generic-stainlesssteel",
-    "value": 3375
+    "value": 3712
   },
   {
     "file": "game:itemtypes/tool/knife.json",
@@ -3485,7 +3485,7 @@
     "file": "game:itemtypes/tool/knife.json",
     "op": "add",
     "path": "/durabilitybytype/knife-generic-chromesteel",
-    "value": 3712
+    "value": 3375
   },
   {
     "file": "game:itemtypes/tool/knife.json",
@@ -3993,7 +3993,7 @@
     "file": "game:itemtypes/tool/hoe.json",
     "op": "add",
     "path": "/durabilitybytype/hoe-stainlesssteel",
-    "value": 1875
+    "value": 2062
   },
   {
     "file": "game:itemtypes/tool/hoe.json",
@@ -4113,7 +4113,7 @@
     "file": "game:itemtypes/tool/hoe.json",
     "op": "add",
     "path": "/durabilitybytype/hoe-chromesteel",
-    "value": 2062
+    "value": 1875
   },
   {
     "file": "game:itemtypes/tool/hoe.json",
@@ -4481,7 +4481,7 @@
     "file": "game:itemtypes/tool/scythe.json",
     "op": "add",
     "path": "/durabilitybytype/scythe-stainlesssteel",
-    "value": 5100
+    "value": 5610
   },
   {
     "file": "game:itemtypes/tool/scythe.json",
@@ -4503,7 +4503,7 @@
     "file": "game:itemtypes/tool/scythe.json",
     "op": "add",
     "path": "/durabilitybytype/scythe-chromesteel",
-    "value": 5610
+    "value": 5100
   },
   {
     "file": "game:itemtypes/tool/scythe.json",
@@ -4700,7 +4700,7 @@
     "file": "game:itemtypes/tool/shears.json",
     "op": "add",
     "path": "/durabilitybytype/shears-stainlesssteel",
-    "value": 14250
+    "value": 15675
   },
   {
     "file": "game:itemtypes/tool/shears.json",
@@ -4755,7 +4755,7 @@
     "file": "game:itemtypes/tool/shears.json",
     "op": "add",
     "path": "/durabilitybytype/shears-chromesteel",
-    "value": 15675
+    "value": 14250
   },
   {
     "file": "game:itemtypes/tool/shears.json",
@@ -5465,7 +5465,7 @@
     "file": "game:itemtypes/tool/blade.json",
     "op": "add",
     "path": "/durabilitybytype/blade-falx-stainlesssteel",
-    "value": 3188
+    "value": 3506
   },
   {
     "file": "game:itemtypes/tool/blade.json",
@@ -5709,7 +5709,7 @@
     "file": "game:itemtypes/tool/blade.json",
     "op": "add",
     "path": "/durabilitybytype/blade-falx-chromesteel",
-    "value": 3506
+    "value": 3188
   },
   {
     "file": "game:itemtypes/tool/blade.json",
@@ -6528,7 +6528,7 @@
     "file": "game:itemtypes/tool/spear.json",
     "op": "add",
     "path": "/durabilitybytype/spear-generic-stainlesssteel",
-    "value": 1050
+    "value": 1155
   },
   {
     "file": "game:itemtypes/tool/spear.json",
@@ -6711,7 +6711,7 @@
     "file": "game:itemtypes/tool/spear.json",
     "op": "add",
     "path": "/durabilitybytype/spear-generic-chromesteel",
-    "value": 1155
+    "value": 1050
   },
   {
     "file": "game:itemtypes/tool/spear.json",
@@ -7349,7 +7349,7 @@
     "file": "game:itemtypes/tool/cleaver.json",
     "op": "add",
     "path": "/durabilitybytype/cleaver-stainlesssteel",
-    "value": 3000
+    "value": 3300
   },
   {
     "file": "game:itemtypes/tool/cleaver.json",
@@ -7407,7 +7407,7 @@
     "file": "game:itemtypes/tool/cleaver.json",
     "op": "add",
     "path": "/durabilitybytype/cleaver-chromesteel",
-    "value": 3300
+    "value": 3000
   },
   {
     "file": "game:itemtypes/tool/cleaver.json",
@@ -14450,7 +14450,7 @@
     "file": "game:itemtypes/tool/tongsmetal.json",
     "op": "add",
     "path": "/durabilityByType/tongsmetal-standard-stainlesssteel",
-    "value": 7500
+    "value": 8250
   },
   {
     "file": "game:itemtypes/tool/tongsmetal.json",
@@ -14510,7 +14510,7 @@
     "file": "game:itemtypes/tool/tongsmetal.json",
     "op": "add",
     "path": "/durabilityByType/tongsmetal-standard-chromesteel",
-    "value": 8250
+    "value": 7500
   },
   {
     "file": "game:itemtypes/tool/tongsmetal.json",
@@ -14865,7 +14865,7 @@
     "file": "game:itemtypes/tool/crowbar.json",
     "op": "add",
     "path": "/durabilitybytype/crowbar-stainlesssteel",
-    "value": 2700
+    "value": 2970
   },
   {
     "file": "game:itemtypes/tool/crowbar.json",
@@ -14962,7 +14962,7 @@
     "file": "game:itemtypes/tool/crowbar.json",
     "op": "add",
     "path": "/durabilitybytype/crowbar-chromesteel",
-    "value": 2970
+    "value": 2700
   },
   {
     "file": "game:itemtypes/tool/crowbar.json",
@@ -15307,7 +15307,7 @@
     "file": "game:itemtypes/tool/wrench.json",
     "op": "add",
     "path": "/durabilitybytype/wrench-stainlesssteel",
-    "value": 6750
+    "value": 7425
   },
   {
     "file": "game:itemtypes/tool/wrench.json",
@@ -15375,7 +15375,7 @@
     "file": "game:itemtypes/tool/wrench.json",
     "op": "add",
     "path": "/durabilitybytype/wrench-chromesteel",
-    "value": 7425
+    "value": 6750
   },
   {
     "file": "game:itemtypes/tool/wrench.json",
@@ -15606,6 +15606,11 @@
     "op": "add",
     "path": "/variantgroups/0/states/-",
     "value": "cupronickel"
+  },
+  {
+    "file": "game:itemtypes/resource/metalscale.json",
+    "op": "remove",
+    "path": "/skipVariants/0"
   },
   {
     "file": "game:itemtypes/resource/metalscale.json",
@@ -16057,13 +16062,13 @@
     "file": "game:itemtypes/tool/roundshield.json",
     "op": "add",
     "path": "/attributes/durabilityGains/metal/stainlesssteel",
-    "value": 180
+    "value": 198
   },
   {
     "file": "game:itemtypes/tool/roundshield.json",
     "op": "add",
     "path": "/attributes/durabilityGains/metal/chromesteel",
-    "value": 198
+    "value": 180
   },
   {
     "file": "game:itemtypes/tool/roundshield.json",
@@ -20496,7 +20501,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-brigandine-stainlesssteel",
-    "value": 3900
+    "value": 4290
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -20675,7 +20680,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-brigandine-stainlesssteel",
-    "value": 3900
+    "value": 4290
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -20839,7 +20844,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-brigandine-stainlesssteel",
-    "value": 3900
+    "value": 4290
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21015,7 +21020,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-chain-stainlesssteel",
-    "value": 3000
+    "value": 3300
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21194,7 +21199,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-chain-stainlesssteel",
-    "value": 3000
+    "value": 3300
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21358,7 +21363,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-chain-stainlesssteel",
-    "value": 3000
+    "value": 3300
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21534,7 +21539,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-scale-stainlesssteel",
-    "value": 5250
+    "value": 5775
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21713,7 +21718,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-scale-stainlesssteel",
-    "value": 5250
+    "value": 5775
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -21877,7 +21882,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-scale-stainlesssteel",
-    "value": 5250
+    "value": 5775
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22058,7 +22063,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-plate-stainlesssteel",
-    "value": 8250
+    "value": 9075
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22238,7 +22243,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-plate-stainlesssteel",
-    "value": 8250
+    "value": 9075
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22401,7 +22406,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-plate-stainlesssteel",
-    "value": 8250
+    "value": 9075
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22577,7 +22582,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-brigandine-chromesteel",
-    "value": 4290
+    "value": 3900
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22756,7 +22761,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-brigandine-chromesteel",
-    "value": 4290
+    "value": 3900
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -22920,7 +22925,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-brigandine-chromesteel",
-    "value": 4290
+    "value": 3900
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23096,7 +23101,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-chain-chromesteel",
-    "value": 3300
+    "value": 3000
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23275,7 +23280,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-chain-chromesteel",
-    "value": 3300
+    "value": 3000
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23439,7 +23444,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-chain-chromesteel",
-    "value": 3300
+    "value": 3000
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23615,7 +23620,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-scale-chromesteel",
-    "value": 5775
+    "value": 5250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23794,7 +23799,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-scale-chromesteel",
-    "value": 5775
+    "value": 5250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -23958,7 +23963,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-scale-chromesteel",
-    "value": 5775
+    "value": 5250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -24139,7 +24144,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-head-plate-chromesteel",
-    "value": 9075
+    "value": 8250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -24319,7 +24324,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-body-plate-chromesteel",
-    "value": 9075
+    "value": 8250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -24482,7 +24487,7 @@
     "file": "game:itemtypes/wearable/seraph/armor.json",
     "op": "add",
     "path": "/durabilityByType/armor-legs-plate-chromesteel",
-    "value": 9075
+    "value": 8250
   },
   {
     "file": "game:itemtypes/wearable/seraph/armor.json",
@@ -34079,5 +34084,816 @@
     "op": "add",
     "path": "/variants/20/temperMaxTemp",
     "value": 700
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/axehead-cupronickel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -70,
+        "y": 70,
+        "z": -50
+      },
+      "origin": {
+        "x": 1.07,
+        "y": 0,
+        "z": 0.4
+      },
+      "scale": 3.2
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/axehead-nickelsteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -70,
+        "y": 70,
+        "z": -50
+      },
+      "origin": {
+        "x": 1.07,
+        "y": 0,
+        "z": 0.4
+      },
+      "scale": 3.2
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/axehead-stainlesssteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -70,
+        "y": 70,
+        "z": -50
+      },
+      "origin": {
+        "x": 1.07,
+        "y": 0,
+        "z": 0.4
+      },
+      "scale": 3.2
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/axehead-chromesteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -70,
+        "y": 70,
+        "z": -50
+      },
+      "origin": {
+        "x": 1.07,
+        "y": 0,
+        "z": 0.4
+      },
+      "scale": 3.2
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/axehead-titanium",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -70,
+        "y": 70,
+        "z": -50
+      },
+      "origin": {
+        "x": 1.07,
+        "y": 0,
+        "z": 0.4
+      },
+      "scale": 3.2
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-castiron",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-cupronickel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-nickelsteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-stainlesssteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-chromesteel",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-titanium",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-castiron",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/guiTransformByType/hoehead-castiron",
+    "value": {
+      "translation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "x": -60,
+        "y": -60,
+        "z": -105
+      },
+      "origin": {
+        "x": 0.95,
+        "y": 0,
+        "z": 0.33
+      },
+      "scale": 2.9
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
   }
 ]

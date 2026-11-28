@@ -50,7 +50,7 @@
   {
     "key": "titanium",
     "ingredients": {
-      "em:powdered-ore-titaniumdioxide": 4,
+      "game:crushed-ilmenite": 4,
       "em:crushed-ore-coal": 1
     },
     "outputBlends": 4,

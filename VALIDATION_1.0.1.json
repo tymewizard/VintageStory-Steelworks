@@ -1,0 +1,18 @@
+{
+  "status": "STATIC_ONLY",
+  "parsedJson": 553,
+  "patchCounts": {
+    "forge-metal-atlas.json": 6,
+    "native-content.json": 3382,
+    "optional-armory.json": 888,
+    "optional-combat.json": 75,
+    "optional-recycling.json": 168,
+    "optional-toolsmith-bindings.json": 8,
+    "shield-fasteners.json": 16
+  },
+  "verifiedToolsmithShapeReferences": 27,
+  "equipmentStatRows": 483,
+  "crossbowOperations": 19,
+  "compiled": false,
+  "runtimeTested": false
+}

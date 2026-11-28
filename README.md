@@ -2,7 +2,7 @@
 
 Advanced metallurgy and equipment progression for Vintage Story 1.22.7.
 
-**Version:** 1.0.0 | **Author:** tymewizard | **Required mod:** [Expanded Matter 3.8.3](https://mods.vintagestory.at/em)
+**Version:** 1.0.1 test candidate | **Author:** tymewizard | **Required mod:** [Expanded Matter 3.8.3](https://mods.vintagestory.at/em)
 
 Steelworks adds a coke-fired, tiered multiblock furnace for producing blister steel, nickel steel, stainless steel, chrome steel and titanium. It extends native metalworking with specialty equipment, alloy-specific textures and configurable server balance.
 
@@ -48,7 +48,7 @@ Install .NET 10 SDK and Vintage Story 1.22.7. From the repository root:
 powershell -NoProfile -ExecutionPolicy Bypass -File .\BUILD_WINDOWS.ps1
 ```
 
-Use `-GameDirectory` for a nonstandard installation. The script runs core tests and builds the native DLL against local game assemblies; no game DLLs are distributed. Outputs in Downloads: `Steelworks_1.0.0_VS1.22.7.zip` and `Steelworks_1.0.0_BUILD_RESULTS.zip`. Generated assets are included; do not rerun historical generators for a normal build. Optional build switches are documented in DEVELOPMENT_HISTORY.md; removing variants from an existing world is unsafe without migration.
+Use `-GameDirectory` for a nonstandard installation. The script runs core tests and builds the native DLL against local game assemblies; no game DLLs are distributed. Outputs in Downloads: `Steelworks_1.0.1_VS1.22.7.zip` and `Steelworks_1.0.1_BUILD_RESULTS.zip`. Generated assets are included; do not rerun historical generators for a normal build. Optional build switches are documented in DEVELOPMENT_HISTORY.md; removing variants from an existing world is unsafe without migration.
 
 ## Testing and issues
 
@@ -57,3 +57,6 @@ The RC1 core/native build passed with zero warnings/errors and four core test gr
 When reporting a bug, include game version, Steelworks version, optional mod versions, reproduction steps and relevant client/server logs (redact private information).
 
 Historical audit and design files are retained for development reference; shipped assets and source are authoritative. Historical design values may differ from current balance.
+
+## 1.0.1 test candidate
+See CHANGELOG_1.0.1_TEST_CANDIDATE.md and TEST_1.0.1.md. Previous build results do not validate this candidate.

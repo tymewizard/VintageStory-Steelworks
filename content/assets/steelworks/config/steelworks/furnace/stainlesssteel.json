@@ -5,6 +5,6 @@
   "unitsPerBlend": 5,
   "minTemperature": 1600,
   "requiresProtectedChamber": false,
-  "processingTimeHours": 16,
+  "processingTimeHours": 18,
   "minimumRefractoryTier": 2
 }

@@ -1003,8 +1003,8 @@
     "value": {
       "blade-falx-cupronickel": 1000,
       "blade-falx-nickelsteel": 1688,
-      "blade-falx-stainlesssteel": 1875,
-      "blade-falx-chromesteel": 2062,
+      "blade-falx-stainlesssteel": 2062,
+      "blade-falx-chromesteel": 1875,
       "blade-falx-titanium": 2500,
       "blade-scrap-scrap": 150,
       "blade-falx-copper": 300,
@@ -2899,8 +2899,8 @@
     "value": {
       "*-cupronickel": 1000,
       "*-nickelsteel": 1688,
-      "*-stainlesssteel": 1875,
-      "*-chromesteel": 2062,
+      "*-stainlesssteel": 2062,
+      "*-chromesteel": 1875,
       "*-titanium": 2500,
       "*-copper": 300,
       "*-tinbronze": 500,

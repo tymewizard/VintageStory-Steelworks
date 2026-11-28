@@ -2,8 +2,8 @@
   "ProcessingTimeHours": {
     "steelworks:blistersteel": 8,
     "steelworks:nickelsteel": 12,
-    "steelworks:stainlesssteel": 16,
-    "steelworks:chromesteel": 20,
+    "steelworks:stainlesssteel": 18,
+    "steelworks:chromesteel": 18,
     "steelworks:titanium": 24
   },
   "ProcessingSpeedMultiplier": 1,
@@ -19,7 +19,7 @@
     "steelworks:blistersteel": 1450,
     "steelworks:nickelsteel": 1550,
     "steelworks:stainlesssteel": 1600,
-    "steelworks:chromesteel": 1650,
+    "steelworks:chromesteel": 1625,
     "steelworks:titanium": 1750
   },
   "Equipment": {
@@ -82,8 +82,8 @@
   "Tier3WearChance": 0.001,
   "QuenchShatterChanceMultiplier": {
     "nickelsteel": 0.65,
-    "stainlesssteel": 0.45,
-    "chromesteel": 0.3,
+    "stainlesssteel": 0.3,
+    "chromesteel": 0.45,
     "titanium": 0.02
   }
 }

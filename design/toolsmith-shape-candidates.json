@@ -1,0 +1,461 @@
+[
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead.json",
+    "op": "add",
+    "path": "/shapeByType/pickaxehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/pickaxe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead.json",
+    "op": "add",
+    "path": "/shapeByType/axehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/axe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead.json",
+    "op": "add",
+    "path": "/shapeByType/shovelhead-castiron",
+    "value": {
+      "base": "toolsmith:item/parts/shovel/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade.json",
+    "op": "add",
+    "path": "/shapeByType/knifeblade-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/knife/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-cupronickel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-nickelsteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-stainlesssteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-chromesteel",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-titanium",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead.json",
+    "op": "add",
+    "path": "/shapeByType/hoehead-castiron",
+    "value": {
+      "base": "toolsmith:item/parts/hoe/heads/advanced"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ],
+    "condition": {
+      "when": "Toolsmith_MultiPartRendering",
+      "isValue": "true"
+    }
+  }
+]

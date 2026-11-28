@@ -1,0 +1,150 @@
+[
+  {
+    "file": "toolsmith:config/toolsmith/parts/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "metalnailsandstrips-nickelsteel",
+      "bindingStatTag": "nickelsteelnails",
+      "bindingShapePath": "metal",
+      "bindingTextureOverride": ""
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/parts/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "metalnailsandstrips-chromesteel",
+      "bindingStatTag": "chromesteelnails",
+      "bindingShapePath": "metal",
+      "bindingTextureOverride": ""
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/parts/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "metalnailsandstrips-stainlesssteel",
+      "bindingStatTag": "stainlesssteelnails",
+      "bindingShapePath": "metal",
+      "bindingTextureOverride": ""
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/parts/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "metalnailsandstrips-titanium",
+      "bindingStatTag": "titaniumnails",
+      "bindingShapePath": "metal",
+      "bindingTextureOverride": ""
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/stats/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "nickelsteelnails",
+      "texturePath": "game:block/metal/plate/nickelsteel",
+      "langTag": "binding-nails-nickelsteel",
+      "baseHPfactor": 2.3,
+      "selfHPBonus": 0.6,
+      "handleHPBonus": 0.45,
+      "recoveryPercent": 0.35,
+      "isMetal": true,
+      "metalType": "nickelsteel"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/stats/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "chromesteelnails",
+      "texturePath": "game:block/metal/plate/chromesteel",
+      "langTag": "binding-nails-chromesteel",
+      "baseHPfactor": 2.4,
+      "selfHPBonus": 0.6,
+      "handleHPBonus": 0.5,
+      "recoveryPercent": 0.35,
+      "isMetal": true,
+      "metalType": "chromesteel"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/stats/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "stainlesssteelnails",
+      "texturePath": "game:block/metal/plate/stainlesssteel",
+      "langTag": "binding-nails-stainlesssteel",
+      "baseHPfactor": 2.5,
+      "selfHPBonus": 0.6,
+      "handleHPBonus": 0.55,
+      "recoveryPercent": 0.35,
+      "isMetal": true,
+      "metalType": "stainlesssteel"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  },
+  {
+    "file": "toolsmith:config/toolsmith/stats/bindings/bindings-vanilla.json",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "id": "titaniumnails",
+      "texturePath": "game:block/metal/plate/titanium",
+      "langTag": "binding-nails-titanium",
+      "baseHPfactor": 2.8,
+      "selfHPBonus": 0.6,
+      "handleHPBonus": 0.65,
+      "recoveryPercent": 0.35,
+      "isMetal": true,
+      "metalType": "titanium"
+    },
+    "dependsOn": [
+      {
+        "modid": "toolsmith"
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "source": "meteoricsteel-1.0.15-VS.1.22 .zip",
+  "patches": 508,
+  "overlaps": [],
+  "notes": "Exact pointer/ancestor audit only; no runtime load order test. Shared array appends are not inherently conflicts."
+}

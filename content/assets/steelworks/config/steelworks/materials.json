@@ -2,75 +2,75 @@
   {
     "key": "cupronickel",
     "tier": 3,
-    "durabilityMultiplier": 0.45,
-    "miningMultiplier": 0.6,
-    "attackMultiplier": 0.65,
+    "durabilityMultiplier": 0.8,
+    "attackMultiplier": 0.75,
     "processingTemperature": null,
     "meltingTemperature": null,
     "canonicalIngotCode": "game:ingot-cupronickel",
     "smithable": true,
     "codeEvidence": "EM2 references vanilla ingot; verify loaded game",
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   },
   {
     "key": "castiron",
     "tier": 4,
-    "durabilityMultiplier": 0.5,
-    "miningMultiplier": 0.7,
+    "durabilityMultiplier": 0.9,
     "attackMultiplier": null,
     "processingTemperature": 1320,
     "meltingTemperature": 1200,
     "canonicalIngotCode": "game:ingot-castiron",
     "smithable": false,
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   },
   {
     "key": "nickelsteel",
     "tier": 5,
-    "durabilityMultiplier": 1.45,
-    "miningMultiplier": 1.1,
-    "attackMultiplier": 1.2,
+    "durabilityMultiplier": 1.35,
+    "attackMultiplier": 1.05,
     "processingTemperature": 1550,
     "meltingTemperature": 1500,
     "canonicalIngotCode": "game:ingot-nickelsteel",
     "smithable": true,
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   },
   {
     "key": "stainlesssteel",
     "tier": 5,
-    "durabilityMultiplier": 1.8,
-    "miningMultiplier": 1.05,
+    "durabilityMultiplier": 1.65,
     "attackMultiplier": 1.1,
     "processingTemperature": 1600,
     "meltingTemperature": 1530,
     "canonicalIngotCode": "game:ingot-stainlesssteel",
     "smithable": true,
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   },
   {
     "key": "chromesteel",
     "tier": 5,
-    "durabilityMultiplier": 1.6,
-    "miningMultiplier": 1.3,
-    "attackMultiplier": 1.25,
-    "processingTemperature": 1650,
+    "durabilityMultiplier": 1.5,
+    "attackMultiplier": 1.15,
+    "processingTemperature": 1625,
     "meltingTemperature": 1530,
     "canonicalIngotCode": "game:ingot-chromesteel",
     "smithable": true,
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   },
   {
     "key": "titanium",
     "tier": 6,
-    "durabilityMultiplier": 2.2,
-    "miningMultiplier": 1.45,
-    "attackMultiplier": 1.35,
+    "durabilityMultiplier": 2,
+    "attackMultiplier": 1.25,
     "processingTemperature": 1750,
     "meltingTemperature": 1668,
     "canonicalIngotCode": "game:ingot-titanium",
     "smithable": true,
     "codeEvidence": "EM2 references vanilla ingot; verify loaded game",
-    "registrationStatus": "candidate; verify vanilla variant registration before release"
+    "registrationStatus": "candidate; verify vanilla variant registration before release",
+    "referenceScope": "Nominal equipment balance target relative to equivalent vanilla steel; concrete item patches and server overrides govern actual values."
   }
 ]

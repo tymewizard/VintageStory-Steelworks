@@ -1,0 +1,484 @@
+Patch,Target asset,JSON pointer,Assigned value,Dependencies
+native-content.json,game:itemtypes/tool/pickaxe.json,/miningspeedbytype/pickaxe-cupronickel,"{""ceramic"": 1.95, ""stone"": 5.4, ""ore"": 5.4, ""metal"": 5.4, ""ice"": 2.55}",[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/attackpowerbytype/pickaxe-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/durabilitybytype/pickaxe-cupronickel,1125,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/miningspeedbytype/pickaxe-nickelsteel,"{""ceramic"": 3.575, ""stone"": 9.9, ""ore"": 9.9, ""metal"": 9.9, ""ice"": 4.675}",[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/attackpowerbytype/pickaxe-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/durabilitybytype/pickaxe-nickelsteel,3375,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/miningspeedbytype/pickaxe-stainlesssteel,"{""ceramic"": 3.413, ""stone"": 9.45, ""ore"": 9.45, ""metal"": 9.45, ""ice"": 4.463}",[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/attackpowerbytype/pickaxe-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/durabilitybytype/pickaxe-stainlesssteel,4125,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/miningspeedbytype/pickaxe-chromesteel,"{""ceramic"": 4.225, ""stone"": 11.7, ""ore"": 11.7, ""metal"": 11.7, ""ice"": 5.525}",[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/attackpowerbytype/pickaxe-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/durabilitybytype/pickaxe-chromesteel,3750,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/miningspeedbytype/pickaxe-titanium,"{""ceramic"": 4.712, ""stone"": 13.05, ""ore"": 13.05, ""metal"": 13.05, ""ice"": 6.162}",[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/attackpowerbytype/pickaxe-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/pickaxe.json,/durabilitybytype/pickaxe-titanium,5000,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/miningspeedbytype/prospectingpick-cupronickel,"{""stone"": 3.3, ""ore"": 3.3}",[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/attackpowerbytype/prospectingpick-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/durabilitybytype/prospectingpick-cupronickel,731,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/miningspeedbytype/prospectingpick-nickelsteel,"{""stone"": 6.05, ""ore"": 6.05}",[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/attackpowerbytype/prospectingpick-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/durabilitybytype/prospectingpick-nickelsteel,2194,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/miningspeedbytype/prospectingpick-stainlesssteel,"{""stone"": 5.775, ""ore"": 5.775}",[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/attackpowerbytype/prospectingpick-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/durabilitybytype/prospectingpick-stainlesssteel,2681,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/miningspeedbytype/prospectingpick-chromesteel,"{""stone"": 7.15, ""ore"": 7.15}",[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/attackpowerbytype/prospectingpick-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/durabilitybytype/prospectingpick-chromesteel,2438,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/miningspeedbytype/prospectingpick-titanium,"{""stone"": 7.975, ""ore"": 7.975}",[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/attackpowerbytype/prospectingpick-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/prospectingpick.json,/durabilitybytype/prospectingpick-titanium,3250,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/miningspeedbytype/axe-felling-cupronickel,"{""wood"": 6.6, ""plant"": 3.6, ""leaves"": 2.4}",[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/durabilitybytype/axe-felling-cupronickel,810,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/attackpowerbytype/axe-felling-cupronickel,2.6,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/miningspeedbytype/axe-felling-nickelsteel,"{""wood"": 12.1, ""plant"": 6.6, ""leaves"": 4.4}",[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/durabilitybytype/axe-felling-nickelsteel,2430,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/attackpowerbytype/axe-felling-nickelsteel,4.2,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/miningspeedbytype/axe-felling-stainlesssteel,"{""wood"": 11.55, ""plant"": 6.3, ""leaves"": 4.2}",[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/durabilitybytype/axe-felling-stainlesssteel,2970,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/attackpowerbytype/axe-felling-stainlesssteel,4.4,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/miningspeedbytype/axe-felling-chromesteel,"{""wood"": 14.3, ""plant"": 7.8, ""leaves"": 5.2}",[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/durabilitybytype/axe-felling-chromesteel,2700,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/attackpowerbytype/axe-felling-chromesteel,4.6,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/miningspeedbytype/axe-felling-titanium,"{""wood"": 15.95, ""plant"": 8.7, ""leaves"": 5.8}",[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/durabilitybytype/axe-felling-titanium,3600,[]
+native-content.json,game:itemtypes/tool/axe-metal.json,/attackpowerbytype/axe-felling-titanium,5.0,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-cupronickel,"{""soil"": 4.2, ""sand"": 4.2, ""gravel"": 2.64, ""snow"": 2.64}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-cupronickel,1350,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-nickelsteel,"{""soil"": 7.7, ""sand"": 7.7, ""gravel"": 4.84, ""snow"": 4.84}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-nickelsteel,4050,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-stainlesssteel,"{""soil"": 7.35, ""sand"": 7.35, ""gravel"": 4.62, ""snow"": 4.62}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-stainlesssteel,4950,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-chromesteel,"{""soil"": 9.1, ""sand"": 9.1, ""gravel"": 5.72, ""snow"": 5.72}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-chromesteel,4500,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-titanium,"{""soil"": 10.15, ""sand"": 10.15, ""gravel"": 6.38, ""snow"": 6.38}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-titanium,6000,[]
+native-content.json,game:itemtypes/tool/shovel.json,/miningspeedbytype/shovel-castiron,"{""soil"": 4.9, ""sand"": 4.9, ""gravel"": 3.08, ""snow"": 3.08}",[]
+native-content.json,game:itemtypes/tool/shovel.json,/attackpowerbytype/shovel-castiron,1.5,[]
+native-content.json,game:itemtypes/tool/shovel.json,/durabilitybytype/shovel-castiron,1500,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-cupronickel,2025,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-nickelsteel,6075,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-stainlesssteel,7425,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-chromesteel,6750,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-titanium,9000,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/hammer.json,/durabilitybytype/hammer-castiron,2250,[]
+native-content.json,game:itemtypes/tool/hammer.json,/attackpowerbytype/hammer-castiron,1.5,[]
+native-content.json,game:itemtypes/tool/chisel.json,/durabilitybytype/chisel-cupronickel,2700,[]
+native-content.json,game:itemtypes/tool/chisel.json,/durabilitybytype/chisel-nickelsteel,8100,[]
+native-content.json,game:itemtypes/tool/chisel.json,/durabilitybytype/chisel-stainlesssteel,9900,[]
+native-content.json,game:itemtypes/tool/chisel.json,/durabilitybytype/chisel-chromesteel,9000,[]
+native-content.json,game:itemtypes/tool/chisel.json,/durabilitybytype/chisel-titanium,12000,[]
+native-content.json,game:itemtypes/tool/saw.json,/miningspeedbytype/saw-cupronickel,"{""wood"": 3.6, ""leaves"": 2.4}",[]
+native-content.json,game:itemtypes/tool/saw.json,/durabilitybytype/saw-cupronickel,1012,[]
+native-content.json,game:itemtypes/tool/saw.json,/miningspeedbytype/saw-nickelsteel,"{""wood"": 6.6, ""leaves"": 4.4}",[]
+native-content.json,game:itemtypes/tool/saw.json,/durabilitybytype/saw-nickelsteel,3038,[]
+native-content.json,game:itemtypes/tool/saw.json,/miningspeedbytype/saw-stainlesssteel,"{""wood"": 6.3, ""leaves"": 4.2}",[]
+native-content.json,game:itemtypes/tool/saw.json,/durabilitybytype/saw-stainlesssteel,3712,[]
+native-content.json,game:itemtypes/tool/saw.json,/miningspeedbytype/saw-chromesteel,"{""wood"": 7.8, ""leaves"": 5.2}",[]
+native-content.json,game:itemtypes/tool/saw.json,/durabilitybytype/saw-chromesteel,3375,[]
+native-content.json,game:itemtypes/tool/saw.json,/miningspeedbytype/saw-titanium,"{""wood"": 8.7, ""leaves"": 5.8}",[]
+native-content.json,game:itemtypes/tool/saw.json,/durabilitybytype/saw-titanium,4500,[]
+native-content.json,game:itemtypes/tool/knife.json,/durabilitybytype/knife-generic-cupronickel,1012,[]
+native-content.json,game:itemtypes/tool/knife.json,/miningspeedbytype/knife-generic-cupronickel,"{""plant"": 1.44}",[]
+native-content.json,game:itemtypes/tool/knife.json,/attackpowerbytype/knife-generic-cupronickel,2.6,[]
+native-content.json,game:itemtypes/tool/knife.json,/durabilitybytype/knife-generic-nickelsteel,3038,[]
+native-content.json,game:itemtypes/tool/knife.json,/miningspeedbytype/knife-generic-nickelsteel,"{""plant"": 2.64}",[]
+native-content.json,game:itemtypes/tool/knife.json,/attackpowerbytype/knife-generic-nickelsteel,4.2,[]
+native-content.json,game:itemtypes/tool/knife.json,/durabilitybytype/knife-generic-stainlesssteel,3712,[]
+native-content.json,game:itemtypes/tool/knife.json,/miningspeedbytype/knife-generic-stainlesssteel,"{""plant"": 2.52}",[]
+native-content.json,game:itemtypes/tool/knife.json,/attackpowerbytype/knife-generic-stainlesssteel,4.4,[]
+native-content.json,game:itemtypes/tool/knife.json,/durabilitybytype/knife-generic-chromesteel,3375,[]
+native-content.json,game:itemtypes/tool/knife.json,/miningspeedbytype/knife-generic-chromesteel,"{""plant"": 3.12}",[]
+native-content.json,game:itemtypes/tool/knife.json,/attackpowerbytype/knife-generic-chromesteel,4.6,[]
+native-content.json,game:itemtypes/tool/knife.json,/durabilitybytype/knife-generic-titanium,4500,[]
+native-content.json,game:itemtypes/tool/knife.json,/miningspeedbytype/knife-generic-titanium,"{""plant"": 3.48}",[]
+native-content.json,game:itemtypes/tool/knife.json,/attackpowerbytype/knife-generic-titanium,5.0,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-cupronickel,"{""soil"": 3.0}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-cupronickel,562,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-nickelsteel,"{""soil"": 5.5}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-nickelsteel,1688,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-stainlesssteel,"{""soil"": 5.25}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-stainlesssteel,2062,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-chromesteel,"{""soil"": 6.5}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-chromesteel,1875,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-titanium,"{""soil"": 7.25}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-titanium,2500,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/hoe.json,/miningspeedbytype/hoe-castiron,"{""soil"": 3.5}",[]
+native-content.json,game:itemtypes/tool/hoe.json,/durabilitybytype/hoe-castiron,625,[]
+native-content.json,game:itemtypes/tool/hoe.json,/attackpowerbytype/hoe-castiron,1.5,[]
+native-content.json,game:itemtypes/tool/scythe.json,/durabilitybytype/scythe-cupronickel,1530,[]
+native-content.json,game:itemtypes/tool/scythe.json,/durabilitybytype/scythe-nickelsteel,4590,[]
+native-content.json,game:itemtypes/tool/scythe.json,/durabilitybytype/scythe-stainlesssteel,5610,[]
+native-content.json,game:itemtypes/tool/scythe.json,/durabilitybytype/scythe-chromesteel,5100,[]
+native-content.json,game:itemtypes/tool/scythe.json,/durabilitybytype/scythe-titanium,6800,[]
+native-content.json,game:itemtypes/tool/shears.json,/attackpowerbytype/shears-cupronickel,2.275,[]
+native-content.json,game:itemtypes/tool/shears.json,/durabilitybytype/shears-cupronickel,4275,[]
+native-content.json,game:itemtypes/tool/shears.json,/attackpowerbytype/shears-nickelsteel,3.675,[]
+native-content.json,game:itemtypes/tool/shears.json,/durabilitybytype/shears-nickelsteel,12825,[]
+native-content.json,game:itemtypes/tool/shears.json,/attackpowerbytype/shears-stainlesssteel,3.85,[]
+native-content.json,game:itemtypes/tool/shears.json,/durabilitybytype/shears-stainlesssteel,15675,[]
+native-content.json,game:itemtypes/tool/shears.json,/attackpowerbytype/shears-chromesteel,4.025,[]
+native-content.json,game:itemtypes/tool/shears.json,/durabilitybytype/shears-chromesteel,14250,[]
+native-content.json,game:itemtypes/tool/shears.json,/attackpowerbytype/shears-titanium,4.375,[]
+native-content.json,game:itemtypes/tool/shears.json,/durabilitybytype/shears-titanium,19000,[]
+native-content.json,game:itemtypes/tool/blade.json,/attackpowerbytype/blade-falx-cupronickel,3.413,[]
+native-content.json,game:itemtypes/tool/blade.json,/durabilitybytype/blade-falx-cupronickel,956,[]
+native-content.json,game:itemtypes/tool/blade.json,/attackpowerbytype/blade-falx-nickelsteel,5.513,[]
+native-content.json,game:itemtypes/tool/blade.json,/durabilitybytype/blade-falx-nickelsteel,2869,[]
+native-content.json,game:itemtypes/tool/blade.json,/attackpowerbytype/blade-falx-stainlesssteel,5.775,[]
+native-content.json,game:itemtypes/tool/blade.json,/durabilitybytype/blade-falx-stainlesssteel,3506,[]
+native-content.json,game:itemtypes/tool/blade.json,/attackpowerbytype/blade-falx-chromesteel,6.037,[]
+native-content.json,game:itemtypes/tool/blade.json,/durabilitybytype/blade-falx-chromesteel,3188,[]
+native-content.json,game:itemtypes/tool/blade.json,/attackpowerbytype/blade-falx-titanium,6.562,[]
+native-content.json,game:itemtypes/tool/blade.json,/durabilitybytype/blade-falx-titanium,4250,[]
+native-content.json,game:itemtypes/tool/spear.json,/attackpowerbytype/spear-generic-cupronickel,2.86,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageByType/spear-generic-cupronickel,4.55,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageTierByType/spear-generic-cupronickel,2,[]
+native-content.json,game:itemtypes/tool/spear.json,/durabilitybytype/spear-generic-cupronickel,315,[]
+native-content.json,game:itemtypes/tool/spear.json,/attackpowerbytype/spear-generic-nickelsteel,4.62,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageByType/spear-generic-nickelsteel,7.35,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageTierByType/spear-generic-nickelsteel,5,[]
+native-content.json,game:itemtypes/tool/spear.json,/durabilitybytype/spear-generic-nickelsteel,945,[]
+native-content.json,game:itemtypes/tool/spear.json,/attackpowerbytype/spear-generic-stainlesssteel,4.84,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageByType/spear-generic-stainlesssteel,7.7,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageTierByType/spear-generic-stainlesssteel,5,[]
+native-content.json,game:itemtypes/tool/spear.json,/durabilitybytype/spear-generic-stainlesssteel,1155,[]
+native-content.json,game:itemtypes/tool/spear.json,/attackpowerbytype/spear-generic-chromesteel,5.06,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageByType/spear-generic-chromesteel,8.05,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageTierByType/spear-generic-chromesteel,5,[]
+native-content.json,game:itemtypes/tool/spear.json,/durabilitybytype/spear-generic-chromesteel,1050,[]
+native-content.json,game:itemtypes/tool/spear.json,/attackpowerbytype/spear-generic-titanium,5.5,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageByType/spear-generic-titanium,8.75,[]
+native-content.json,game:itemtypes/tool/spear.json,/attributes/damageTierByType/spear-generic-titanium,6,[]
+native-content.json,game:itemtypes/tool/spear.json,/durabilitybytype/spear-generic-titanium,1400,[]
+native-content.json,game:itemtypes/tool/arrow.json,/attributes/damageByType/arrow-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/arrow.json,/attributes/damageByType/arrow-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/arrow.json,/attributes/damageByType/arrow-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/arrow.json,/attributes/damageByType/arrow-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/arrow.json,/attributes/damageByType/arrow-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/durabilitybytype/cleaver-cupronickel,900,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/attackpowerbytype/cleaver-cupronickel,1.788,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/durabilitybytype/cleaver-nickelsteel,2700,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/attackpowerbytype/cleaver-nickelsteel,2.888,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/durabilitybytype/cleaver-stainlesssteel,3300,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/attackpowerbytype/cleaver-stainlesssteel,3.025,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/durabilitybytype/cleaver-chromesteel,3000,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/attackpowerbytype/cleaver-chromesteel,3.162,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/durabilitybytype/cleaver-titanium,4000,[]
+native-content.json,game:itemtypes/tool/cleaver.json,/attackpowerbytype/cleaver-titanium,3.438,[]
+native-content.json,game:itemtypes/tool/tongsmetal.json,/durabilityByType/tongsmetal-standard-cupronickel,2250,[]
+native-content.json,game:itemtypes/tool/tongsmetal.json,/durabilityByType/tongsmetal-standard-nickelsteel,6750,[]
+native-content.json,game:itemtypes/tool/tongsmetal.json,/durabilityByType/tongsmetal-standard-stainlesssteel,8250,[]
+native-content.json,game:itemtypes/tool/tongsmetal.json,/durabilityByType/tongsmetal-standard-chromesteel,7500,[]
+native-content.json,game:itemtypes/tool/tongsmetal.json,/durabilityByType/tongsmetal-standard-titanium,10000,[]
+native-content.json,game:itemtypes/tool/crowbar.json,/durabilitybytype/crowbar-cupronickel,810,[]
+native-content.json,game:itemtypes/tool/crowbar.json,/durabilitybytype/crowbar-nickelsteel,2430,[]
+native-content.json,game:itemtypes/tool/crowbar.json,/durabilitybytype/crowbar-stainlesssteel,2970,[]
+native-content.json,game:itemtypes/tool/crowbar.json,/durabilitybytype/crowbar-chromesteel,2700,[]
+native-content.json,game:itemtypes/tool/crowbar.json,/durabilitybytype/crowbar-titanium,3600,[]
+native-content.json,game:itemtypes/tool/wrench.json,/durabilitybytype/wrench-cupronickel,2025,[]
+native-content.json,game:itemtypes/tool/wrench.json,/attackpowerbytype/wrench-cupronickel,1.625,[]
+native-content.json,game:itemtypes/tool/wrench.json,/durabilitybytype/wrench-nickelsteel,6075,[]
+native-content.json,game:itemtypes/tool/wrench.json,/attackpowerbytype/wrench-nickelsteel,2.625,[]
+native-content.json,game:itemtypes/tool/wrench.json,/durabilitybytype/wrench-stainlesssteel,7425,[]
+native-content.json,game:itemtypes/tool/wrench.json,/attackpowerbytype/wrench-stainlesssteel,2.75,[]
+native-content.json,game:itemtypes/tool/wrench.json,/durabilitybytype/wrench-chromesteel,6750,[]
+native-content.json,game:itemtypes/tool/wrench.json,/attackpowerbytype/wrench-chromesteel,2.875,[]
+native-content.json,game:itemtypes/tool/wrench.json,/durabilitybytype/wrench-titanium,9000,[]
+native-content.json,game:itemtypes/tool/wrench.json,/attackpowerbytype/wrench-titanium,3.125,[]
+native-content.json,game:itemtypes/tool/roundshield.json,/attributes/durabilityGains/metal/cupronickel,96,[]
+native-content.json,game:itemtypes/tool/roundshield.json,/attributes/durabilityGains/metal/nickelsteel,162,[]
+native-content.json,game:itemtypes/tool/roundshield.json,/attributes/durabilityGains/metal/stainlesssteel,198,[]
+native-content.json,game:itemtypes/tool/roundshield.json,/attributes/durabilityGains/metal/chromesteel,180,[]
+native-content.json,game:itemtypes/tool/roundshield.json,/attributes/durabilityGains/metal/titanium,240,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-brigandine-cupronickel,"{""relativeProtection"": 0.81, ""flatDamageReduction"": 1.15, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-brigandine-cupronickel,1170,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-brigandine-cupronickel,"{""relativeProtection"": 0.81, ""flatDamageReduction"": 1.15, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-brigandine-cupronickel,1170,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-brigandine-cupronickel,"{""relativeProtection"": 0.81, ""flatDamageReduction"": 1.15, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-brigandine-cupronickel,1170,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-chain-cupronickel,"{""relativeProtection"": 0.83, ""flatDamageReduction"": 1.25, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-chain-cupronickel,900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-chain-cupronickel,"{""relativeProtection"": 0.83, ""flatDamageReduction"": 1.25, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-chain-cupronickel,900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-chain-cupronickel,"{""relativeProtection"": 0.83, ""flatDamageReduction"": 1.25, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-chain-cupronickel,900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-scale-cupronickel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.4, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-scale-cupronickel,1575,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-scale-cupronickel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.4, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-scale-cupronickel,1575,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-scale-cupronickel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.4, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-scale-cupronickel,1575,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-plate-cupronickel,"{""relativeProtection"": 0.95, ""flatDamageReduction"": 1.65, ""highDamageTierResistant"": true, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-plate-cupronickel,2475,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-plate-cupronickel,"{""relativeProtection"": 0.95, ""flatDamageReduction"": 1.65, ""highDamageTierResistant"": true, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-plate-cupronickel,2475,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-plate-cupronickel,"{""relativeProtection"": 0.95, ""flatDamageReduction"": 1.65, ""highDamageTierResistant"": true, ""protectionTier"": 2}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-plate-cupronickel,2475,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-brigandine-nickelsteel,"{""relativeProtection"": 0.84, ""flatDamageReduction"": 1.3, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-brigandine-nickelsteel,3510,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-brigandine-nickelsteel,"{""relativeProtection"": 0.84, ""flatDamageReduction"": 1.3, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-brigandine-nickelsteel,3510,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-brigandine-nickelsteel,"{""relativeProtection"": 0.84, ""flatDamageReduction"": 1.3, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-brigandine-nickelsteel,3510,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-chain-nickelsteel,"{""relativeProtection"": 0.86, ""flatDamageReduction"": 1.4, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-chain-nickelsteel,2700,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-chain-nickelsteel,"{""relativeProtection"": 0.86, ""flatDamageReduction"": 1.4, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-chain-nickelsteel,2700,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-chain-nickelsteel,"{""relativeProtection"": 0.86, ""flatDamageReduction"": 1.4, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-chain-nickelsteel,2700,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-scale-nickelsteel,"{""relativeProtection"": 0.9, ""flatDamageReduction"": 1.6, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-scale-nickelsteel,4725,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-scale-nickelsteel,"{""relativeProtection"": 0.9, ""flatDamageReduction"": 1.6, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-scale-nickelsteel,4725,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-scale-nickelsteel,"{""relativeProtection"": 0.9, ""flatDamageReduction"": 1.6, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-scale-nickelsteel,4725,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-plate-nickelsteel,"{""relativeProtection"": 0.97, ""flatDamageReduction"": 1.8, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-plate-nickelsteel,7425,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-plate-nickelsteel,"{""relativeProtection"": 0.97, ""flatDamageReduction"": 1.8, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-plate-nickelsteel,7425,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-plate-nickelsteel,"{""relativeProtection"": 0.97, ""flatDamageReduction"": 1.8, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-plate-nickelsteel,7425,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-brigandine-stainlesssteel,"{""relativeProtection"": 0.845, ""flatDamageReduction"": 1.352, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-brigandine-stainlesssteel,4290,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-brigandine-stainlesssteel,"{""relativeProtection"": 0.845, ""flatDamageReduction"": 1.352, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-brigandine-stainlesssteel,4290,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-brigandine-stainlesssteel,"{""relativeProtection"": 0.845, ""flatDamageReduction"": 1.352, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-brigandine-stainlesssteel,4290,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-chain-stainlesssteel,"{""relativeProtection"": 0.865, ""flatDamageReduction"": 1.456, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-chain-stainlesssteel,3300,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-chain-stainlesssteel,"{""relativeProtection"": 0.865, ""flatDamageReduction"": 1.456, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-chain-stainlesssteel,3300,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-chain-stainlesssteel,"{""relativeProtection"": 0.865, ""flatDamageReduction"": 1.456, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-chain-stainlesssteel,3300,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-scale-stainlesssteel,"{""relativeProtection"": 0.905, ""flatDamageReduction"": 1.664, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-scale-stainlesssteel,5775,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-scale-stainlesssteel,"{""relativeProtection"": 0.905, ""flatDamageReduction"": 1.664, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-scale-stainlesssteel,5775,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-scale-stainlesssteel,"{""relativeProtection"": 0.905, ""flatDamageReduction"": 1.664, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-scale-stainlesssteel,5775,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-plate-stainlesssteel,"{""relativeProtection"": 0.975, ""flatDamageReduction"": 1.872, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-plate-stainlesssteel,9075,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-plate-stainlesssteel,"{""relativeProtection"": 0.975, ""flatDamageReduction"": 1.872, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-plate-stainlesssteel,9075,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-plate-stainlesssteel,"{""relativeProtection"": 0.975, ""flatDamageReduction"": 1.872, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-plate-stainlesssteel,9075,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-brigandine-chromesteel,"{""relativeProtection"": 0.85, ""flatDamageReduction"": 1.404, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-brigandine-chromesteel,3900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-brigandine-chromesteel,"{""relativeProtection"": 0.85, ""flatDamageReduction"": 1.404, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-brigandine-chromesteel,3900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-brigandine-chromesteel,"{""relativeProtection"": 0.85, ""flatDamageReduction"": 1.404, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-brigandine-chromesteel,3900,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-chain-chromesteel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.512, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-chain-chromesteel,3000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-chain-chromesteel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.512, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-chain-chromesteel,3000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-chain-chromesteel,"{""relativeProtection"": 0.87, ""flatDamageReduction"": 1.512, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-chain-chromesteel,3000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-scale-chromesteel,"{""relativeProtection"": 0.91, ""flatDamageReduction"": 1.728, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-scale-chromesteel,5250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-scale-chromesteel,"{""relativeProtection"": 0.91, ""flatDamageReduction"": 1.728, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-scale-chromesteel,5250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-scale-chromesteel,"{""relativeProtection"": 0.91, ""flatDamageReduction"": 1.728, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-scale-chromesteel,5250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-plate-chromesteel,"{""relativeProtection"": 0.98, ""flatDamageReduction"": 1.944, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-plate-chromesteel,8250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-plate-chromesteel,"{""relativeProtection"": 0.98, ""flatDamageReduction"": 1.944, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-plate-chromesteel,8250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-plate-chromesteel,"{""relativeProtection"": 0.98, ""flatDamageReduction"": 1.944, ""highDamageTierResistant"": true, ""protectionTier"": 4}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-plate-chromesteel,8250,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-brigandine-titanium,"{""relativeProtection"": 0.855, ""flatDamageReduction"": 1.43, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-brigandine-titanium,5200,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-brigandine-titanium,"{""relativeProtection"": 0.855, ""flatDamageReduction"": 1.43, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-brigandine-titanium,5200,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-brigandine-titanium,"{""relativeProtection"": 0.855, ""flatDamageReduction"": 1.43, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-brigandine-titanium,5200,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-chain-titanium,"{""relativeProtection"": 0.875, ""flatDamageReduction"": 1.54, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-chain-titanium,4000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-chain-titanium,"{""relativeProtection"": 0.875, ""flatDamageReduction"": 1.54, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-chain-titanium,4000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-chain-titanium,"{""relativeProtection"": 0.875, ""flatDamageReduction"": 1.54, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-chain-titanium,4000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-scale-titanium,"{""relativeProtection"": 0.915, ""flatDamageReduction"": 1.76, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-scale-titanium,7000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-scale-titanium,"{""relativeProtection"": 0.915, ""flatDamageReduction"": 1.76, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-scale-titanium,7000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-scale-titanium,"{""relativeProtection"": 0.915, ""flatDamageReduction"": 1.76, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-scale-titanium,7000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-head-plate-titanium,"{""relativeProtection"": 0.985, ""flatDamageReduction"": 1.98, ""highDamageTierResistant"": true, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-head-plate-titanium,11000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-body-plate-titanium,"{""relativeProtection"": 0.985, ""flatDamageReduction"": 1.98, ""highDamageTierResistant"": true, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-body-plate-titanium,11000,[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/attributes/protectionModifiersByType/armor-legs-plate-titanium,"{""relativeProtection"": 0.985, ""flatDamageReduction"": 1.98, ""highDamageTierResistant"": true, ""protectionTier"": 5}",[]
+native-content.json,game:itemtypes/wearable/seraph/armor.json,/durabilityByType/armor-legs-plate-titanium,11000,[]
+optional-armory.json,armory:itemtypes/armor/brigandine.json,/durabilityByType/*-cupronickel-*,4160,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/brigandine.json,/durabilityByType/*-nickelsteel-*,7020,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/brigandine.json,/durabilityByType/*-stainlesssteel-*,8580,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/brigandine.json,/durabilityByType/*-chromesteel-*,7800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/brigandine.json,/durabilityByType/*-titanium-*,10400,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain-coif.json,/durabilityByType/*-cupronickel-*,3200,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain-coif.json,/durabilityByType/*-nickelsteel-*,5400,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain-coif.json,/durabilityByType/*-stainlesssteel-*,6600,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain-coif.json,/durabilityByType/*-chromesteel-*,6000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain-coif.json,/durabilityByType/*-titanium-*,8000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain.json,/durabilityByType/*-cupronickel-*,3200,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain.json,/durabilityByType/*-nickelsteel-*,5400,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain.json,/durabilityByType/*-stainlesssteel-*,6600,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain.json,/durabilityByType/*-chromesteel-*,6000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/chain.json,/durabilityByType/*-titanium-*,8000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate-helmets.json,/durabilityByType/*-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate-helmets.json,/durabilityByType/*-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate-helmets.json,/durabilityByType/*-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate-helmets.json,/durabilityByType/*-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate-helmets.json,/durabilityByType/*-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-torso-plate-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-torso-plate-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-torso-plate-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-torso-plate-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-torso-plate-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-arms-plate-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-arms-plate-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-arms-plate-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-arms-plate-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-arms-plate-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-hands-plate-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-hands-plate-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-hands-plate-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-hands-plate-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-hands-plate-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-legs-plate-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-legs-plate-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-legs-plate-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-legs-plate-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-legs-plate-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-feet-plate-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-feet-plate-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-feet-plate-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-feet-plate-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-feet-plate-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-armshands-plate-cupronickel-*,17600,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-armshands-plate-nickelsteel-*,29700,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-armshands-plate-stainlesssteel-*,36300,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-armshands-plate-chromesteel-*,33000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/plate.json,/durabilityByType/*-armshands-plate-titanium-*,44000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/scale.json,/durabilityByType/*-cupronickel-*,8800,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/scale.json,/durabilityByType/*-nickelsteel-*,14850,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/scale.json,/durabilityByType/*-stainlesssteel-*,18150,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/scale.json,/durabilityByType/*-chromesteel-*,16500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/armor/scale.json,/durabilityByType/*-titanium-*,22000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/axe-long.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/axe-long.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/axe-long.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/axe-long.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/axe-long.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/club.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/club.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/club.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/club.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/club.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/dagger.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/dagger.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/dagger.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/dagger.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/dagger.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/halberd.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/halberd.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/halberd.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/halberd.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/halberd.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/hatchet.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/hatchet.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/hatchet.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/hatchet.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/hatchet.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/javelin.json,/durabilitybytype/*-cupronickel,360,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/javelin.json,/durabilitybytype/*-nickelsteel,608,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/javelin.json,/durabilitybytype/*-stainlesssteel,742,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/javelin.json,/durabilitybytype/*-chromesteel,675,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/javelin.json,/durabilitybytype/*-titanium,900,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/mace.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/mace.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/mace.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/mace.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/mace.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/pike.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/pike.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/pike.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/pike.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/pike.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/poleaxe.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/poleaxe.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/poleaxe.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/poleaxe.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/poleaxe.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/quarterstaff.json,/durabilitybytype/*-cupronickel,600,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/quarterstaff.json,/durabilitybytype/*-nickelsteel,1013,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/quarterstaff.json,/durabilitybytype/*-stainlesssteel,1238,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/quarterstaff.json,/durabilitybytype/*-chromesteel,1125,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/quarterstaff.json,/durabilitybytype/*-titanium,1500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sabre.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sabre.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sabre.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sabre.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sabre.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-heavy.json,/durabilitybytype/*-cupronickel,1440,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-heavy.json,/durabilitybytype/*-nickelsteel,2430,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-heavy.json,/durabilitybytype/*-stainlesssteel,2970,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-heavy.json,/durabilitybytype/*-chromesteel,2700,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-heavy.json,/durabilitybytype/*-titanium,3600,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-light.json,/durabilitybytype/*-cupronickel,2400,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-light.json,/durabilitybytype/*-nickelsteel,4050,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-light.json,/durabilitybytype/*-stainlesssteel,4950,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-light.json,/durabilitybytype/*-chromesteel,4500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/shield-light.json,/durabilitybytype/*-titanium,6000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-arming.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-arming.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-arming.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-arming.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-arming.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-great.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-great.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-great.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-great.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-great.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-long.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-long.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-long.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-long.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-long.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-short.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-short.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-short.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-short.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/sword-short.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/trident.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/trident.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/trident.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/trident.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-armory.json,armory:itemtypes/weapons/trident.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""armoryfork""}, {""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/sword.json,/durabilitybytype/blade-falx-cupronickel,1000,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/sword.json,/durabilitybytype/blade-falx-nickelsteel,1688,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/sword.json,/durabilitybytype/blade-falx-stainlesssteel,2062,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/sword.json,/durabilitybytype/blade-falx-chromesteel,1875,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/sword.json,/durabilitybytype/blade-falx-titanium,2500,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/spear.json,/durabilitybytype/*-cupronickel,1000,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/spear.json,/durabilitybytype/*-nickelsteel,1688,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/spear.json,/durabilitybytype/*-stainlesssteel,2062,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/spear.json,/durabilitybytype/*-chromesteel,1875,"[{""modid"": ""combatoverhaulfork""}]"
+optional-combat.json,game:itemtypes/combatoverhaul/spear.json,/durabilitybytype/*-titanium,2500,"[{""modid"": ""combatoverhaulfork""}]"

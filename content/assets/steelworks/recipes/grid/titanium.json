@@ -3,19 +3,19 @@
   "ingredients": {
     "A": {
       "type": "item",
-      "code": "em:powdered-ore-titaniumdioxide"
+      "code": "game:crushed-ilmenite"
     },
     "B": {
       "type": "item",
-      "code": "em:powdered-ore-titaniumdioxide"
+      "code": "game:crushed-ilmenite"
     },
     "C": {
       "type": "item",
-      "code": "em:powdered-ore-titaniumdioxide"
+      "code": "game:crushed-ilmenite"
     },
     "D": {
       "type": "item",
-      "code": "em:powdered-ore-titaniumdioxide"
+      "code": "game:crushed-ilmenite"
     },
     "E": {
       "type": "item",
