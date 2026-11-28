@@ -1,0 +1,2 @@
+Steelworks 1.0.7 forge placement correction
+Two shared vanilla toolhead forge-only transforms replaced (sawblade and scythehead), affecting all variants including vanilla. Values estimated from metal geometry bounds, with no live renderer validation. Existing tested DLL reused. No other assets, recipes, ground transforms or stats changed. Duplicate tooltip remains an external configuration workaround, not a code fix.

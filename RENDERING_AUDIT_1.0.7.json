@@ -1,0 +1,1645 @@
+{
+  "baseTextureSource": "MetalCookware_1.0.15_VS1.22.7.zip:assets/mc/textures/block/metal/pot/titanium.png",
+  "baseSha256": "c301d58bbecda3217f031e1e2ee3623112b85079c5c9503d5cfd0c92285a854c",
+  "derivedTextures": [
+    "content/assets/armory/textures/armor/brigandine/titanium.png",
+    "content/assets/armory/textures/armor/chain/titanium.png",
+    "content/assets/armory/textures/armor/plate/titanium.png",
+    "content/assets/armory/textures/armor/scale/titanium.png",
+    "content/assets/game/textures/block/metal/anvil/titanium.png",
+    "content/assets/game/textures/block/metal/plate/titanium.png",
+    "content/assets/game/textures/block/metal/sheet/titanium1.png",
+    "content/assets/game/textures/block/metal/sheet/titanium2.png",
+    "content/assets/game/textures/block/metal/sheet/titanium3.png",
+    "content/assets/game/textures/block/metal/sheet/titanium4.png",
+    "content/assets/game/textures/block/metal/sheet/titanium5.png",
+    "content/assets/game/textures/block/metal/sheet-plain/titanium1.png",
+    "content/assets/game/textures/block/metal/sheet-plain/titanium2.png",
+    "content/assets/game/textures/block/metal/sheet-plain/titanium3.png",
+    "content/assets/game/textures/block/metal/sheet-plain/titanium4.png",
+    "content/assets/game/textures/block/metal/tarnished/titanium.png",
+    "content/assets/game/textures/entity/humanoid/serapharmor/brigandine/titanium.png",
+    "content/assets/game/textures/entity/humanoid/serapharmor/chain/titanium.png",
+    "content/assets/game/textures/entity/humanoid/serapharmor/plate/titanium.png",
+    "content/assets/game/textures/entity/humanoid/serapharmor/scale/titanium.png",
+    "content/assets/game/textures/item/tool/shield/metal/titanium.png"
+  ],
+  "transformAudit": [
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "vanillaSelector": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "sharedSelector": "@*-(gold|silver|iron|meteoriciron|steel|cupronickel|nickelsteel|stainlesssteel|chromesteel|titanium)",
+      "exactEntriesAlreadyEqual": 5,
+      "spearGeometryMatches": false
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "vanillaSelector": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "sharedSelector": "@*-(blackbronze|iron|meteoriciron|steel|cupronickel|nickelsteel|stainlesssteel|chromesteel|titanium)",
+      "exactEntriesAlreadyEqual": 5,
+      "spearGeometryMatches": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/toolrackTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/groundStorageTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/onAntlerMountTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/guiTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/groundTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/tpHandTransformByType/axe-felling-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/toolrackTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/groundStorageTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/onAntlerMountTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/guiTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/groundTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/tpHandTransformByType/axe-felling-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/toolrackTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/groundStorageTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/onAntlerMountTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/guiTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/groundTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/tpHandTransformByType/axe-felling-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/toolrackTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/groundStorageTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/onAntlerMountTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/guiTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/groundTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/tpHandTransformByType/axe-felling-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/toolrackTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/groundStorageTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/attributes/onAntlerMountTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/guiTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/groundTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/axe-metal.json",
+      "path": "/tpHandTransformByType/axe-felling-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-cupronickel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-cupronickel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-nickelsteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-nickelsteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-stainlesssteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-stainlesssteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-chromesteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-chromesteel",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-titanium",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-titanium",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/attributes/groundStorageTransformByType/shovel-castiron",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/shovel.json",
+      "path": "/guiTransformByType/shovel-castiron",
+      "vanillaMatch": "@shovel-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/toolrackTransformByType/knife-generic-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/groundStorageTransformByType/knife-generic-cupronickel",
+      "vanillaMatch": "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/guiTransformByType/knife-generic-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/tpHandTransformByType/knife-generic-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/toolrackTransformByType/knife-generic-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/groundStorageTransformByType/knife-generic-nickelsteel",
+      "vanillaMatch": "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/guiTransformByType/knife-generic-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/tpHandTransformByType/knife-generic-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/toolrackTransformByType/knife-generic-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/groundStorageTransformByType/knife-generic-stainlesssteel",
+      "vanillaMatch": "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/guiTransformByType/knife-generic-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/tpHandTransformByType/knife-generic-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/toolrackTransformByType/knife-generic-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/groundStorageTransformByType/knife-generic-chromesteel",
+      "vanillaMatch": "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/guiTransformByType/knife-generic-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/tpHandTransformByType/knife-generic-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/toolrackTransformByType/knife-generic-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/attributes/groundStorageTransformByType/knife-generic-titanium",
+      "vanillaMatch": "@knife-generic-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/guiTransformByType/knife-generic-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/knife.json",
+      "path": "/tpHandTransformByType/knife-generic-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-cupronickel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-cupronickel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-cupronickel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-cupronickel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-nickelsteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-nickelsteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-nickelsteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-nickelsteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-stainlesssteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-stainlesssteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-stainlesssteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-stainlesssteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-chromesteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-chromesteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-chromesteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-chromesteel",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-titanium",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-titanium",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-titanium",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-titanium",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/groundStorageTransformByType/hoe-castiron",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/attributes/toolrackTransformByType/hoe-castiron",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/guiTransformByType/hoe-castiron",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/hoe.json",
+      "path": "/tpHandTransformByType/hoe-castiron",
+      "vanillaMatch": "@hoe-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/toolrackTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/groundStorageTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "blade-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/onAntlerMountTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/guiTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/groundTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/tpHandTransformByType/blade-falx-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/toolrackTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/groundStorageTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "blade-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/onAntlerMountTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/guiTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/groundTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/tpHandTransformByType/blade-falx-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/toolrackTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/groundStorageTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "blade-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/onAntlerMountTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/guiTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/groundTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/tpHandTransformByType/blade-falx-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/toolrackTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/groundStorageTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "blade-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/onAntlerMountTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/guiTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/groundTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/tpHandTransformByType/blade-falx-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/toolrackTransformByType/blade-falx-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/groundStorageTransformByType/blade-falx-titanium",
+      "vanillaMatch": "blade-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/attributes/onAntlerMountTransformByType/blade-falx-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/guiTransformByType/blade-falx-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/groundTransformByType/blade-falx-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/blade.json",
+      "path": "/tpHandTransformByType/blade-falx-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/groundStorageTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/toolrackTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/onAntlerMountTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "spear-generic-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/guiTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/groundTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/tpHandTransformByType/spear-generic-cupronickel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/groundStorageTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/toolrackTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/onAntlerMountTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "spear-generic-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/guiTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/groundTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/tpHandTransformByType/spear-generic-nickelsteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/groundStorageTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/toolrackTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/onAntlerMountTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "spear-generic-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/guiTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/groundTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/tpHandTransformByType/spear-generic-stainlesssteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/groundStorageTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/toolrackTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/onAntlerMountTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "spear-generic-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/guiTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/groundTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/tpHandTransformByType/spear-generic-chromesteel",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/groundStorageTransformByType/spear-generic-titanium",
+      "vanillaMatch": "@spear-generic-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/toolrackTransformByType/spear-generic-titanium",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|ornategold|hacking|ornatesilver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/attributes/onAntlerMountTransformByType/spear-generic-titanium",
+      "vanillaMatch": "spear-generic-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/guiTransformByType/spear-generic-titanium",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/groundTransformByType/spear-generic-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/spear.json",
+      "path": "/tpHandTransformByType/spear-generic-titanium",
+      "vanillaMatch": "@spear-generic-(copper|tinbronze|bismuthbronze|blackbronze|hacking|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onTongTransformByType/axehead-cupronickel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onMetalTongTransformByType/axehead-cupronickel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/groundStorageTransformByType/axehead-cupronickel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/guiTransformByType/axehead-cupronickel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onTongTransformByType/axehead-nickelsteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onMetalTongTransformByType/axehead-nickelsteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/groundStorageTransformByType/axehead-nickelsteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/guiTransformByType/axehead-nickelsteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onTongTransformByType/axehead-stainlesssteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onMetalTongTransformByType/axehead-stainlesssteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/groundStorageTransformByType/axehead-stainlesssteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/guiTransformByType/axehead-stainlesssteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onTongTransformByType/axehead-chromesteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onMetalTongTransformByType/axehead-chromesteel",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/groundStorageTransformByType/axehead-chromesteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/guiTransformByType/axehead-chromesteel",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onTongTransformByType/axehead-titanium",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/onMetalTongTransformByType/axehead-titanium",
+      "vanillaMatch": "@axehead-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/attributes/groundStorageTransformByType/axehead-titanium",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/axehead.json",
+      "path": "/guiTransformByType/axehead-titanium",
+      "vanillaMatch": "@*-(gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-cupronickel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-cupronickel",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-nickelsteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-nickelsteel",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-stainlesssteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-stainlesssteel",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-chromesteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-chromesteel",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-titanium",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-titanium",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/attributes/groundStorageTransformByType/shovelhead-castiron",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/guiTransformByType/shovelhead-castiron",
+      "vanillaMatch": "@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/shovelhead.json",
+      "path": "/tpHandTransformByType/shovelhead-castiron",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/attributes/groundStorageTransformByType/knifeblade-cupronickel",
+      "vanillaMatch": "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/guiTransformByType/knifeblade-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/tpHandTransformByType/knifeblade-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/attributes/groundStorageTransformByType/knifeblade-nickelsteel",
+      "vanillaMatch": "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/guiTransformByType/knifeblade-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/tpHandTransformByType/knifeblade-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/attributes/groundStorageTransformByType/knifeblade-stainlesssteel",
+      "vanillaMatch": "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/guiTransformByType/knifeblade-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/tpHandTransformByType/knifeblade-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/attributes/groundStorageTransformByType/knifeblade-chromesteel",
+      "vanillaMatch": "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/guiTransformByType/knifeblade-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/tpHandTransformByType/knifeblade-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/attributes/groundStorageTransformByType/knifeblade-titanium",
+      "vanillaMatch": "@knifeblade-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/guiTransformByType/knifeblade-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/knifeblade.json",
+      "path": "/tpHandTransformByType/knifeblade-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-cupronickel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-cupronickel",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-nickelsteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-nickelsteel",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-stainlesssteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-stainlesssteel",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-chromesteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-chromesteel",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-titanium",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-titanium",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/attributes/groundStorageTransformByType/hoehead-castiron",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/hoehead.json",
+      "path": "/guiTransformByType/hoehead-castiron",
+      "vanillaMatch": "@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/attributes/inForgeTransformByType/bladehead-falx-cupronickel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/guiTransformByType/bladehead-falx-cupronickel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/attributes/inForgeTransformByType/bladehead-falx-nickelsteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/guiTransformByType/bladehead-falx-nickelsteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/attributes/inForgeTransformByType/bladehead-falx-stainlesssteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/guiTransformByType/bladehead-falx-stainlesssteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/attributes/inForgeTransformByType/bladehead-falx-chromesteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/guiTransformByType/bladehead-falx-chromesteel",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/attributes/inForgeTransformByType/bladehead-falx-titanium",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/bladehead.json",
+      "path": "/guiTransformByType/bladehead-falx-titanium",
+      "vanillaMatch": "bladehead-falx-*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/attributes/groundStorageTransformByType/spearhead-cupronickel",
+      "vanillaMatch": "@*-(blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/guiTransformByType/spearhead-cupronickel",
+      "vanillaMatch": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/tpHandTransformByType/spearhead-cupronickel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/groundTransformByType/spearhead-cupronickel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/attributes/groundStorageTransformByType/spearhead-nickelsteel",
+      "vanillaMatch": "@*-(blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/guiTransformByType/spearhead-nickelsteel",
+      "vanillaMatch": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/tpHandTransformByType/spearhead-nickelsteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/groundTransformByType/spearhead-nickelsteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/attributes/groundStorageTransformByType/spearhead-stainlesssteel",
+      "vanillaMatch": "@*-(blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/guiTransformByType/spearhead-stainlesssteel",
+      "vanillaMatch": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/tpHandTransformByType/spearhead-stainlesssteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/groundTransformByType/spearhead-stainlesssteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/attributes/groundStorageTransformByType/spearhead-chromesteel",
+      "vanillaMatch": "@*-(blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/guiTransformByType/spearhead-chromesteel",
+      "vanillaMatch": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/tpHandTransformByType/spearhead-chromesteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/groundTransformByType/spearhead-chromesteel",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/attributes/groundStorageTransformByType/spearhead-titanium",
+      "vanillaMatch": "@*-(blackbronze|gold|silver|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/guiTransformByType/spearhead-titanium",
+      "vanillaMatch": "@*-(blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/tpHandTransformByType/spearhead-titanium",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/spearhead.json",
+      "path": "/groundTransformByType/spearhead-titanium",
+      "vanillaMatch": "@*-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|steel)",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/attributes/groundStorageTransformByType/arrowhead-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/guiTransformByType/arrowhead-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/attributes/groundStorageTransformByType/arrowhead-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/guiTransformByType/arrowhead-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/attributes/groundStorageTransformByType/arrowhead-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/guiTransformByType/arrowhead-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/attributes/groundStorageTransformByType/arrowhead-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/guiTransformByType/arrowhead-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/attributes/groundStorageTransformByType/arrowhead-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/toolhead/arrowhead.json",
+      "path": "/guiTransformByType/arrowhead-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/tongsmetal.json",
+      "path": "/attributes/groundStorageTransformByType/tongsmetal-standard-cupronickel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/tongsmetal.json",
+      "path": "/attributes/groundStorageTransformByType/tongsmetal-standard-nickelsteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/tongsmetal.json",
+      "path": "/attributes/groundStorageTransformByType/tongsmetal-standard-stainlesssteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/tongsmetal.json",
+      "path": "/attributes/groundStorageTransformByType/tongsmetal-standard-chromesteel",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/tongsmetal.json",
+      "path": "/attributes/groundStorageTransformByType/tongsmetal-standard-titanium",
+      "vanillaMatch": "*",
+      "equal": true
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/attributes/groundStorageTransformByType/crowbar-cupronickel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/guiTransformByType/crowbar-cupronickel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/attributes/groundStorageTransformByType/crowbar-nickelsteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/guiTransformByType/crowbar-nickelsteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/attributes/groundStorageTransformByType/crowbar-stainlesssteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/guiTransformByType/crowbar-stainlesssteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/attributes/groundStorageTransformByType/crowbar-chromesteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/guiTransformByType/crowbar-chromesteel",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/attributes/groundStorageTransformByType/crowbar-titanium",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    },
+    {
+      "file": "game:itemtypes/tool/crowbar.json",
+      "path": "/guiTransformByType/crowbar-titanium",
+      "vanillaMatch": "@*-(iron|meteoriciron|steel)",
+      "equal": false
+    }
+  ],
+  "limitations": [
+    "GUI shared selector is a candidate correction, requires runtime confirmation; exact existing transforms and spear geometry already matched.",
+    "Electric forge not changed; no verified rendering hook.",
+    "Optional nugget bridge requires compilation and runtime verification.",
+    "No shears changes."
+  ]
+}

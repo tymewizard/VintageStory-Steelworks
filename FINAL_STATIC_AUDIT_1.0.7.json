@@ -1,0 +1,160 @@
+{
+  "renamedArmoryRecipes": [
+    {
+      "oldTemplate": "part-helmetplate-{metal}-open",
+      "oldResolved": "part-helmetplate-cupronickel-open",
+      "new": "steelworks-part-helmetplate-cupronickel-open",
+      "output": "armory:part-helmetplate-cupronickel-open"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-open",
+      "oldResolved": "part-helmetplate-nickelsteel-open",
+      "new": "steelworks-part-helmetplate-nickelsteel-open",
+      "output": "armory:part-helmetplate-nickelsteel-open"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-open",
+      "oldResolved": "part-helmetplate-stainlesssteel-open",
+      "new": "steelworks-part-helmetplate-stainlesssteel-open",
+      "output": "armory:part-helmetplate-stainlesssteel-open"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-open",
+      "oldResolved": "part-helmetplate-chromesteel-open",
+      "new": "steelworks-part-helmetplate-chromesteel-open",
+      "output": "armory:part-helmetplate-chromesteel-open"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-open",
+      "oldResolved": "part-helmetplate-titanium-open",
+      "new": "steelworks-part-helmetplate-titanium-open",
+      "output": "armory:part-helmetplate-titanium-open"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-light",
+      "oldResolved": "part-helmetplate-cupronickel-light",
+      "new": "steelworks-part-helmetplate-cupronickel-light",
+      "output": "armory:part-helmetplate-cupronickel-light"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-light",
+      "oldResolved": "part-helmetplate-nickelsteel-light",
+      "new": "steelworks-part-helmetplate-nickelsteel-light",
+      "output": "armory:part-helmetplate-nickelsteel-light"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-light",
+      "oldResolved": "part-helmetplate-stainlesssteel-light",
+      "new": "steelworks-part-helmetplate-stainlesssteel-light",
+      "output": "armory:part-helmetplate-stainlesssteel-light"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-light",
+      "oldResolved": "part-helmetplate-chromesteel-light",
+      "new": "steelworks-part-helmetplate-chromesteel-light",
+      "output": "armory:part-helmetplate-chromesteel-light"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-light",
+      "oldResolved": "part-helmetplate-titanium-light",
+      "new": "steelworks-part-helmetplate-titanium-light",
+      "output": "armory:part-helmetplate-titanium-light"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-vanilla",
+      "oldResolved": "part-helmetplate-cupronickel-vanilla",
+      "new": "steelworks-part-helmetplate-cupronickel-vanilla",
+      "output": "armory:part-helmetplate-cupronickel-vanilla"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-vanilla",
+      "oldResolved": "part-helmetplate-nickelsteel-vanilla",
+      "new": "steelworks-part-helmetplate-nickelsteel-vanilla",
+      "output": "armory:part-helmetplate-nickelsteel-vanilla"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-vanilla",
+      "oldResolved": "part-helmetplate-stainlesssteel-vanilla",
+      "new": "steelworks-part-helmetplate-stainlesssteel-vanilla",
+      "output": "armory:part-helmetplate-stainlesssteel-vanilla"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-vanilla",
+      "oldResolved": "part-helmetplate-chromesteel-vanilla",
+      "new": "steelworks-part-helmetplate-chromesteel-vanilla",
+      "output": "armory:part-helmetplate-chromesteel-vanilla"
+    },
+    {
+      "oldTemplate": "part-helmetplate-{metal}-vanilla",
+      "oldResolved": "part-helmetplate-titanium-vanilla",
+      "new": "steelworks-part-helmetplate-titanium-vanilla",
+      "output": "armory:part-helmetplate-titanium-vanilla"
+    },
+    {
+      "oldTemplate": "quarterstaffhead-{metal}",
+      "oldResolved": "quarterstaffhead-cupronickel",
+      "new": "steelworks-quarterstaffhead-cupronickel",
+      "output": "armory:part-quarterstaffhead-cupronickel"
+    },
+    {
+      "oldTemplate": "quarterstaffhead-{metal}",
+      "oldResolved": "quarterstaffhead-nickelsteel",
+      "new": "steelworks-quarterstaffhead-nickelsteel",
+      "output": "armory:part-quarterstaffhead-nickelsteel"
+    },
+    {
+      "oldTemplate": "quarterstaffhead-{metal}",
+      "oldResolved": "quarterstaffhead-stainlesssteel",
+      "new": "steelworks-quarterstaffhead-stainlesssteel",
+      "output": "armory:part-quarterstaffhead-stainlesssteel"
+    },
+    {
+      "oldTemplate": "quarterstaffhead-{metal}",
+      "oldResolved": "quarterstaffhead-chromesteel",
+      "new": "steelworks-quarterstaffhead-chromesteel",
+      "output": "armory:part-quarterstaffhead-chromesteel"
+    },
+    {
+      "oldTemplate": "quarterstaffhead-{metal}",
+      "oldResolved": "quarterstaffhead-titanium",
+      "new": "steelworks-quarterstaffhead-titanium",
+      "output": "armory:part-quarterstaffhead-titanium"
+    }
+  ],
+  "uniqueExplicitArmoryRecipeCodes": 95,
+  "optionalAssetTargetsChecked": 79,
+  "missingOptionalTargets": [],
+  "crossbowAssemblyChecks": [
+    {
+      "material": "cupronickel",
+      "matchesUpstreamSteelAssembly": true,
+      "actual": null
+    },
+    {
+      "material": "nickelsteel",
+      "matchesUpstreamSteelAssembly": true,
+      "actual": null
+    },
+    {
+      "material": "stainlesssteel",
+      "matchesUpstreamSteelAssembly": true,
+      "actual": null
+    },
+    {
+      "material": "chromesteel",
+      "matchesUpstreamSteelAssembly": true,
+      "actual": null
+    },
+    {
+      "material": "titanium",
+      "matchesUpstreamSteelAssembly": true,
+      "actual": null
+    }
+  ],
+  "limitations": [
+    "Repeated template strings confirmed in source; whether the old runtime expands them uniquely is not established. Explicit identifiers eliminate that ambiguity.",
+    "SmithingRecovery includes explicit aliases for previous codes, requires matching output and metal, does not alter voxels or original tool data.",
+    "Electric forge renderer and ExtraInfo tooltip still not traced to verified hook; no speculative patches.",
+    "No compilation or runtime verification."
+  ]
+}

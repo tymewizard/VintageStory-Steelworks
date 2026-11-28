@@ -1,0 +1,31 @@
+{
+  "nativeGuiExactEntriesVerified": [
+    "axehead-cupronickel",
+    "axehead-nickelsteel",
+    "axehead-stainlesssteel",
+    "axehead-chromesteel",
+    "axehead-titanium",
+    "spearhead-cupronickel",
+    "spearhead-nickelsteel",
+    "spearhead-stainlesssteel",
+    "spearhead-chromesteel",
+    "spearhead-titanium"
+  ],
+  "identicalSpearGeometryVerified": [
+    "cupronickel",
+    "nickelsteel",
+    "stainlesssteel",
+    "chromesteel",
+    "titanium"
+  ],
+  "crowbarDifferences": 10,
+  "crowbarDecision": "Retained copper geometry and its matching vanilla copper transforms.",
+  "removedBroadSelectors": 2,
+  "clientGuiParity": "Copies current vanilla steel GUI transform to matching native axe and spear shapes; skips Toolsmith and unexpected models.",
+  "electricForge": "Saw and scythe native forge transforms already match vanilla. No verified EP renderer hook; unchanged.",
+  "limitations": [
+    "No compilation or in-game verification in this environment.",
+    "Client GUI parity does not affect ground, wall, tongs or forge transforms.",
+    "No changes to recipes, balance, texture assets or item IDs in this pass."
+  ]
+}

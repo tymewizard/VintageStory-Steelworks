@@ -1,0 +1,24 @@
+{
+  "base": "Armory Fork 1.11.4",
+  "removed_assembly_patches": 85,
+  "added_upstream_assembly_and_conversion_patches": 140,
+  "added_legacy_head_conversions": 5,
+  "added_smithing_recipes": 5,
+  "extended_hatchet_smithing_variants": 5,
+  "families": {
+    "clubs": 15,
+    "daggers": 5,
+    "halberd": 5,
+    "hatchets": 5,
+    "javelins": 5,
+    "longaxe": 5,
+    "maces": 20,
+    "pikes": 5,
+    "poleaxe": 5,
+    "quarterstaff": 5,
+    "sabre": 10,
+    "spears": 5,
+    "swords": 50
+  },
+  "scope": "No combat-stat changes. Existing hammerhead smithing recipe retained to avoid changing its identity. New recipe IDs may shift numeric recipe references. Existing stable-code recovery is preserved; runtime not tested. Existing shield and armor recipes untouched."
+}
